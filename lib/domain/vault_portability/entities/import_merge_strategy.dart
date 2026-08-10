@@ -1,0 +1,1 @@
+enum ImportMergeStrategy { merge, replace }

@@ -1,0 +1,66 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="128" y1="64" x2="896" y2="960" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F1B4D"/>
+      <stop offset="0.55" stop-color="#1D4ED8"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <radialGradient id="glowTop" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(284 208) rotate(40.4) scale(390 335)">
+      <stop stop-color="#62D8FF" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#62D8FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBottom" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(784 804) rotate(130.6) scale(308 268)">
+      <stop stop-color="#9EF3E5" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#9EF3E5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rearDoc" x1="304" y1="236" x2="624" y2="724" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68D8FF"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="frontDoc" x1="420" y1="280" x2="700" y2="728" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EEF4FF"/>
+    </linearGradient>
+    <linearGradient id="fold" x1="612" y1="282" x2="700" y2="370" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7E8FF"/>
+      <stop offset="1" stop-color="#BDD7FF"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="436" y1="496" x2="640" y2="588" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#24135F"/>
+      <stop offset="1" stop-color="#162C7A"/>
+    </linearGradient>
+    <linearGradient id="chipAccent" x1="581" y1="516" x2="616" y2="570" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#69F0FF"/>
+      <stop offset="1" stop-color="#35D3FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <rect x="28" y="28" width="968" height="968" rx="224" fill="white" fill-opacity="0.04"/>
+  <circle cx="274" cy="222" r="310" fill="url(#glowTop)"/>
+  <circle cx="804" cy="820" r="238" fill="url(#glowBottom)"/>
+
+  <ellipse cx="516" cy="782" rx="232" ry="54" fill="#08122E" fill-opacity="0.18"/>
+
+  <g transform="rotate(-8 446 470)">
+    <rect x="266" y="232" width="356" height="462" rx="84" fill="url(#rearDoc)"/>
+    <path d="M546 232H622V308L546 232Z" fill="#95E4FF" fill-opacity="0.72"/>
+  </g>
+
+  <rect x="372" y="280" width="336" height="456" rx="84" fill="url(#frontDoc)"/>
+  <path d="M620 280H708V368L620 280Z" fill="url(#fold)"/>
+
+  <rect x="438" y="370" width="154" height="28" rx="14" fill="#D8E7FF"/>
+  <rect x="438" y="412" width="112" height="22" rx="11" fill="#E5EFFF"/>
+
+  <rect x="436" y="490" width="210" height="104" rx="34" fill="url(#chip)"/>
+  <circle cx="492" cy="542" r="11" fill="white"/>
+  <circle cx="536" cy="542" r="11" fill="white"/>
+  <circle cx="580" cy="542" r="11" fill="white"/>
+  <path d="M611 560C611 576.569 597.569 590 581 590C564.431 590 551 576.569 551 560C551 550.12 555.78 541.355 563.149 535.886V523.5C563.149 513.842 570.992 506 580.649 506C590.307 506 598.149 513.842 598.149 523.5V535.886C605.46 541.355 611 550.12 611 560Z" fill="url(#chipAccent)"/>
+  <rect x="574" y="523" width="13" height="44" rx="6.5" fill="#152A76"/>
+  <circle cx="580.5" cy="551" r="8" fill="#152A76"/>
+
+  <rect x="438" y="628" width="196" height="18" rx="9" fill="#E2EBFB"/>
+  <rect x="438" y="662" width="150" height="18" rx="9" fill="#EAF1FC"/>
+</svg>

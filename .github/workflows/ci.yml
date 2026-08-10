@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  analyze-and-test:
+    name: Analyze & test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 3.44.0
+          channel: stable
+          cache: true
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      # Fails the build on any analyzer warning or error (infos are allowed).
+      - name: Analyze
+        run: dart analyze
+
+      - name: Test (with coverage)
+        run: flutter test --coverage
+
+      # Regression backstop, not an aspiration: fails only if line coverage
+      # collapses (e.g. the test harness breaks and the suite silently no-ops).
+      # Raise the floor as the trust-surface suites grow. Overall % is naturally
+      # modest for a UI-heavy app — the meaningful coverage lives in
+      # lib/data/vault_sync, lib/data/**/storage, and lib/data/secure_share.
+      - name: Coverage floor
+        run: |
+          total=$(grep -c '^DA:' coverage/lcov.info)
+          hit=$(grep '^DA:' coverage/lcov.info | awk -F, '$2>0' | wc -l | tr -d ' ')
+          pct=$(awk "BEGIN{printf \"%d\", $hit*100/$total}")
+          echo "Line coverage: ${pct}% (${hit}/${total})"
+          if [ "$pct" -lt 14 ]; then
+            echo "::error::Line coverage ${pct}% fell below the 14% floor"
+            exit 1
+          fi

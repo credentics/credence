@@ -1,0 +1,1 @@
+enum CredentialSecurityStatus { secure, warning }

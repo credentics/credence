@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Credence</string>
+    <string name="vault_health_widget_desc">Shows your vault health score</string>
+    <string name="expiring_docs_widget_desc">Shows documents expiring soon</string>
+</resources>

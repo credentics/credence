@@ -1,0 +1,2642 @@
+{
+  "@@locale": "en",
+  "appTitle": "Credence",
+  "tabHome": "Home",
+  "tabCredentials": "Credentials",
+  "tabGenerator": "Generator",
+  "tabDocuments": "Documents",
+  "tabProfile": "Profile",
+  "commonEdit": "Edit",
+  "commonSave": "Save",
+  "commonDone": "Done",
+  "commonSaving": "Saving...",
+  "commonCancel": "Cancel",
+  "commonRetry": "Retry",
+  "commonErrorGeneric": "Something went wrong. Please try again.",
+  "commonErrorLoad": "Unable to load data. Tap retry to try again.",
+  "commonViewAll": "View All",
+  "commonPasswordCopiedSecurely": "Password copied securely.",
+  "commonUnableCopyPassword": "Unable to copy password.",
+  "tooltipCopyPassword": "Copy password",
+  "tooltipOpenDetails": "Open details",
+  "credentialsTitle": "Credentials",
+  "credentialsUnableLoadVaultOverview": "Unable to load vault overview.",
+  "credentialsUnableLoadAccounts": "Unable to load accounts.",
+  "credentialsUnableLoadSingle": "Unable to load credential.",
+  "credentialsNoAccountsFound": "No accounts found.",
+  "credentialsNoResultsForQuery": "No results for \"{query}\"",
+  "@credentialsNoResultsForQuery": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "credentialsGeneratorCardTitle": "Password Generator",
+  "credentialsGeneratorCardSubtitle": "Create secure passwords in one tap",
+  "credentialsDesktopSubtitle": "Offline vault, instant access",
+  "credentialsAdded": "Credential added.",
+  "credentialsUnableAdd": "Unable to add credential.",
+  "credentialsUpdated": "Credential updated.",
+  "credentialsUnableUpdate": "Unable to update credential right now.",
+  "credentialsSavingLogo": "Saving logo locally...",
+  "credentialsNewCredential": "New Credential",
+  "credentialsSingleCredential": "Credential",
+  "credentialsLogoSavingInProgress": "Logo is still saving locally. Please wait a moment.",
+  "credentialsRequiredFieldsMissing": "Service, username and password are required.",
+  "credentialsLookForAnotherIcon": "Look for another icon",
+  "credentialsResetIcon": "Reset icon",
+  "credentialsCategory": "Category",
+  "credentialsSearchEnterServiceOrWebsite": "Enter service name or website first.",
+  "credentialsNoMatchingIconFound": "No matching company icon found.",
+  "credentialsSelectSuggestedBrand": "Select a suggested brand to update icon and site.",
+  "credentialsUnableSearchBrands": "Unable to search brands right now.",
+  "credentialsLogoPreviewLoadedLocalSaveFailed": "Logo preview loaded, but local save failed for this brand.",
+  "credentialsUnableSaveLogoLocally": "Unable to save logo locally.",
+  "credentialsEmailCopied": "Email copied.",
+  "credentialsPasswordCopied": "Password copied.",
+  "credentialsNoUrlToCopy": "No URL to copy.",
+  "credentialsWebsiteCopied": "Website URL copied.",
+  "credentialsAddToFavorites": "Add to Favorites",
+  "credentialsAddedToFavorites": "Added to favorites.",
+  "credentialsAddToSiriShortcuts": "Add to Siri Shortcuts",
+  "credentialsSiriShortcutReady": "Siri Shortcut action ready.",
+  "credentialsDelete": "Delete",
+  "credentialsDeleteNeedsConfirmation": "Delete action requires confirmation.",
+  "credentialFieldAccountLabel": "Account Label",
+  "credentialFieldEmailUsername": "Email/Username",
+  "credentialFieldPassword": "Password",
+  "credentialFieldWebsiteUrl": "URL",
+  "credentialFieldNotes": "Notes",
+  "credentialEditServicePlaceholder": "GitHub",
+  "credentialEditAccountPlaceholder": "Personal Account",
+  "credentialEditEmailPlaceholder": "jane.smith@email.com",
+  "credentialEditUrlPlaceholder": "https://github.com",
+  "credentialEditNotesPlaceholder": "Recovery code, security notes, reminders...",
+  "credentialsSearchHint": "Search credentials...",
+  "credentialsSearchCountHint": "Search {count} credentials...",
+  "@credentialsSearchCountHint": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeWelcomeBack": "Welcome back",
+  "homeGreetingNamed": "Hi, {name}.",
+  "@homeGreetingNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingFallback": "Hi.",
+  "homeOwnerName": "Vault Owner",
+  "homeSearchVaultDocuments": "Search vault, documents...",
+  "homeActionRequired": "ACTION REQUIRED",
+  "homeSecurityCheckRecommended": "Security check is recommended.",
+  "homeReviewNow": "Review now",
+  "homeAllCredentialsSecure": "All credentials look secure right now.",
+  "homeFrequentlyUsed": "Frequently Used",
+  "homeNoQuickItemsYet": "No quick items yet.",
+  "homeRecentItems": "Recent Items",
+  "homeRecentActivityPlaceholder": "Your recent activity will show here.",
+  "homeLastUsedWithTime": "{username} • Last used {time}",
+  "@homeLastUsedWithTime": {
+    "placeholders": {
+      "username": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "homeRelativeJustNow": "Just now",
+  "homeRelativeMinutesAgo": "{minutes}m ago",
+  "@homeRelativeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "homeRelativeHoursAgo": "{hours}h ago",
+  "@homeRelativeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "homeRelativeYesterday": "Yesterday",
+  "homeRelativeDaysAgo": "{days}d ago",
+  "@homeRelativeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "homeRelativeWeeksAgo": "{weeks}w ago",
+  "@homeRelativeWeeksAgo": {
+    "placeholders": {
+      "weeks": {
+        "type": "int"
+      }
+    }
+  },
+  "homeRelativeMonthsAgo": "{months}mo ago",
+  "@homeRelativeMonthsAgo": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "securitySettingsTitle": "Security Settings",
+  "documentsPageComingSoon": "{category} documents page is coming next.",
+  "@documentsPageComingSoon": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "desktopLocalDataOnly": "Data stays local to this device",
+  "passwordHealthChecking": "Checking...",
+  "passwordHealthWeak": "Weak",
+  "passwordHealthFair": "Fair",
+  "passwordHealthStrong": "Strong",
+  "passwordHealthExcellent": "Excellent",
+  "profileExportVaultData": "Export Vault Data",
+  "profileUnableLoad": "Unable to load profile right now.",
+  "profileShareSecureProfileTitle": "Share Secure Profile",
+  "profileShareSecureProfileSubtitle": "Generate a temporary encrypted vCard",
+  "profileAccountDetailsTitle": "Account Details",
+  "profileAccountDetailsSection": "ACCOUNT DETAILS",
+  "profileRecentActivityTitle": "Recent Activity",
+  "profileRecentActivitySection": "RECENT ACTIVITY",
+  "profileExporting": "Exporting...",
+  "profileExportHint": "Exported data is encrypted and requires your master password to decrypt on another device.",
+  "profileAddAccountDetailsFirst": "Add account details first before sharing profile.",
+  "profileExportStatusPreparing": "Preparing export...",
+  "profileExportStatusSelectDestination": "Select destination to save archive...",
+  "profileExportStatusOpeningShareSheet": "Opening share sheet...",
+  "profileExportSavedLocally": "Vault archive saved locally.",
+  "profileExportSavedAt": "Vault archive saved: {path}",
+  "@profileExportSavedAt": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "profileExportGeneratedAndShared": "Vault archive generated and shared.",
+  "profileExportStatusFailed": "Export failed.",
+  "profileUnableExportVaultData": "Unable to export vault data right now.",
+  "profileExportPassphraseTitle": "Export Passphrase",
+  "profileExportPassphraseHint": "Enter export passphrase",
+  "profileExportAction": "Export",
+  "profileExportStatusOpeningSaveDialog": "Opening save destination dialog...",
+  "profileExportSaveArchiveButton": "Save Vault Archive",
+  "profileExportStatusSaveDialogTimedOut": "Save dialog timed out on this platform; using local fallback path.",
+  "profileExportStatusNoSaveLocation": "Save dialog closed without location.",
+  "profileExportStatusSavingArchive": "Saving archive file...",
+  "profileExportStatusArchiveSaved": "Archive saved to {path}",
+  "@profileExportStatusArchiveSaved": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "profileExportStatusSaveDialogFailed": "Save dialog failed; trying fallback location...",
+  "profileExportStatusSavedFallback": "Saved to fallback location.",
+  "profileExportStatusFallbackSaveSuccess": "Fallback save success: {path}",
+  "@profileExportStatusFallbackSaveSuccess": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "profileExportStatusFallbackSaveFailed": "Fallback save failed.",
+  "profileExportArchiveNotFound": "Archive file not found.",
+  "profileExportShareText": "Vault archive ({documents} docs, {credentials} credentials, {files} linked files)",
+  "@profileExportShareText": {
+    "placeholders": {
+      "documents": {
+        "type": "int"
+      },
+      "credentials": {
+        "type": "int"
+      },
+      "files": {
+        "type": "int"
+      }
+    }
+  },
+  "profileExportInProgress": "Export in progress",
+  "profileFullName": "Full Name",
+  "profileEmail": "Email",
+  "profilePhone": "Phone",
+  "profileNotProvided": "Not provided",
+  "profileNoRecentActivityYet": "No recent activity yet.",
+  "profileNoActivityYet": "No activity yet",
+  "profileNoActivitySubtitle": "Your vault is empty. All your\nsecurity events will appear\nhere.",
+  "profileActivityWithTime": "{subtitle} • {time}",
+  "@profileActivityWithTime": {
+    "placeholders": {
+      "subtitle": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "profileEditTitle": "Edit Profile",
+  "profileUpdatePhoto": "Update Photo",
+  "profileTapChangePhoto": "Tap to change your profile picture",
+  "profileFirstName": "First Name",
+  "profileLastName": "Last Name",
+  "profileEmailAddress": "Email Address",
+  "profileSecurePhone": "Secure Phone",
+  "profileContactInfoSecurityNotice": "Changes to your contact information may require secondary authentication for security purposes. Your vault remains encrypted.",
+  "profileSaveChanges": "Save Changes",
+  "profileChooseFromLibrary": "Choose from Library",
+  "profileTakePhoto": "Take Photo",
+  "profileRequiredFieldsMessage": "First name, last name and email are required.",
+  "profileUnableSave": "Unable to save profile right now.",
+  "profileShareTitle": "Share Profile",
+  "profileShareSubtitle": "Select the information you want to include in your encrypted vCard.",
+  "profileShareAttributesSection": "PROFILE ATTRIBUTES",
+  "profileShareSecurityOptionsSection": "SECURITY OPTIONS",
+  "profileShareGenerating": "Generating...",
+  "profileShareGenerateSecureLink": "Generate vCard",
+  "profileShareQrCode": "Preview vCard",
+  "profileShareCopyLink": "Copy vCard",
+  "profileShareLinkExpires": "vCard valid until {date}",
+  "@profileShareLinkExpires": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "profileSharePoweredByEncryption": "POWERED BY END-TO-END ENCRYPTION",
+  "profileShareHoursLabel": "{hours, plural, =1{1 hour} other{{hours} hours}}",
+  "@profileShareHoursLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "profileShareGenerateFirst": "Generate a vCard first.",
+  "profileShareLinkCopied": "vCard copied.",
+  "profileShareSecureLink": "vCard",
+  "profileShareAction": "Share",
+  "profileShareOptInTitle": "Share is opt-in",
+  "profileShareOptInSubtitle": "Only selected profile fields are included. No credentials, documents, collections, or vault data are shared.",
+  "profileShareEmptyAttributeValue": "Not set",
+  "profilePhoneNumber": "Phone Number",
+  "profileHomeAddress": "Home Address",
+  "profileSocialLinks": "Social Links",
+  "profileShareExpirationLabel": "{hours, plural, =1{1 hour} other{{hours} hours}}",
+  "@profileShareExpirationLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "profileShareLinkExpiration": "vCard Validity",
+  "securitySectionBiometrics": "BIOMETRICS",
+  "securitySectionVaultSecurity": "VAULT SECURITY",
+  "securitySectionPrivacy": "PRIVACY",
+  "securitySectionSync": "SYNC",
+  "securitySectionAdvanced": "ADVANCED",
+  "securityUseFaceId": "Use FaceID",
+  "securityUseFaceIdSubtitle": "Unlock your vault instantly",
+  "securityAutoLockTimer": "Auto-lock timer",
+  "securityScreenshotProtection": "Screenshot protection",
+  "securityScreenshotProtectionSubtitle": "Block capture in app",
+  "securityAutoBlurFields": "Auto-blur fields",
+  "securityClearClipboard": "Clear clipboard",
+  "securitySyncStatus": "Sync status",
+  "securitySyncTarget": "Sync target",
+  "securityChangeMasterPassword": "Change Master Password",
+  "securityChangeMasterPasswordHint": "Update your sync passphrase in the encryption section.",
+  "securityExportData": "Export Data",
+  "securityExportHint": "Export is available from the portability flow.",
+  "securityVersionAndAudit": "Credence v1.0.0",
+  "settingsUseAppSupportFolder": "Use App Support Folder",
+  "minutesLabel": "{minutes} minute",
+  "@minutesLabel": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "syncTargetDisabled": "Disabled",
+  "syncTargetLocalFolder": "Local Folder",
+  "syncTargetDropboxCloud": "Dropbox Cloud",
+  "settingsNavVault": "VAULT",
+  "settingsNavKeys": "KEYS",
+  "settingsNavSharing": "SHARING",
+  "settingsNavSettings": "SETTINGS",
+  "commonBack": "Back",
+  "commonCopied": "Copied.",
+  "commonShare": "Share",
+  "documentArchived": "Document archived.",
+  "documentDeleted": "Document deleted.",
+  "documentForceExpire": "Force expiration",
+  "documentForceExpireConfirm": "Force expire",
+  "documentForceExpireDescription": "This will mark the document as expired by setting its expiry date to yesterday.",
+  "documentForceExpireTitle": "Force document expiration?",
+  "documentForcedExpired": "Document marked as expired.",
+  "documentFileUnavailable": "File unavailable.",
+  "documentFileUnavailableOnDevice": "File unavailable on this device.",
+  "documentFileUnavailableOrEmpty": "File unavailable or empty.",
+  "documentPdfPreview": "PDF Preview",
+  "documentPreview": "Preview",
+  "documentPrimaryIdSubtitle": "Mark this ID for quick access.",
+  "documentPrimaryIdTitle": "Primary ID",
+  "documentPrimaryRemoved": "Primary ID removed.",
+  "documentPrimarySet": "Primary ID set.",
+  "documentPrimaryUnableUpdate": "Unable to update primary ID.",
+  "documentRemoveArchive": "Archive document",
+  "documentRemoveArchiveSubtitle": "Hide it from active items without deleting files.",
+  "documentRemoveDelete": "Delete document",
+  "documentRemoveDeleteSubtitle": "Remove document and linked files from this device.",
+  "documentRemoveDescription": "Choose what to do with this document.",
+  "documentRemoveTitle": "Remove {title}?",
+  "documentShareErrorFileNotFound": "File not found.",
+  "documentShareErrorPermissionDenied": "Permission denied while sharing.",
+  "documentShareErrorUnavailable": "Sharing is unavailable on this build.",
+  "documentSharingUnavailableBuild": "Sharing is unavailable on this build.",
+  "documentStructuredInformation": "STRUCTURED INFORMATION",
+  "documentUnableLoad": "Unable to load document.",
+  "documentUnableForceExpire": "Unable to force document expiration right now.",
+  "documentUnableOpenPreview": "Unable to open preview.",
+  "collectionUploadDropHere": "Drop file here",
+  "documentPreviewNotAvailable": "Preview is not available for this file type.\nYou can share it to open in another app.",
+  "documentUnableRemove": "Unable to remove document right now.",
+  "documentUnableRenderImagePreview": "Unable to render image preview.",
+  "documentUnableShareFile": "Unable to share file right now.",
+  "documentUpdated": "Document updated.",
+  "idEntryBackSide": "Back Side",
+  "idEntryBackSideCapturedNotice": "Back side captured.",
+  "idEntryCameraLibraryUnavailable": "Camera or library is unavailable on this device.",
+  "idEntryCameraMobileOnly": "Camera capture is available on mobile only.",
+  "idEntryCaptureAlreadyAdded": "{side} already added",
+  "idEntryCaptureClearImageFromCamera": "Capture a clear image using your camera.",
+  "idEntryCapturePreviewOrReplaceQuestion": "Would you like to preview it or replace it?",
+  "idEntryChooseFile": "Choose File",
+  "idEntryChooseImageSource": "Choose Image Source",
+  "idEntryChooseImageSourceReplace": "Select a new source to replace this image.",
+  "idEntryClearLabel": "Clear label",
+  "idEntryCountry": "Country",
+  "idEntryCountryExample": "e.g. United States",
+  "idEntryDateFormatShort": "MM/DD/YYYY",
+  "idEntryDateOfBirth": "Date of Birth",
+  "idEntryDesktopAutofillNotice": "Desktop supports upload only. OCR autofill runs on mobile.",
+  "idEntryDetectedTypeVerifyFields": "Detected: {detectedType}. Please verify all fields.",
+  "idEntryDetectedTypeWithConfidence": "Detected: {detectedType} ({confidence}%) from {side}.",
+  "idEntryDocument": "Document",
+  "idEntryDocumentType": "Document Type",
+  "idEntryDocumentTypeHint": "Select document type",
+  "idEntryDropImageFileHint": "Drop image files here.",
+  "idEntryDropSupportedFile": "Only image files and PDFs are supported.",
+  "idEntryEnterCountry": "Enter country...",
+  "idEntryEnterCountryName": "Enter country name",
+  "idEntryEnterFullName": "Enter full name...",
+  "idEntryEnterPassportNumber": "Enter passport number...",
+  "idEntryExpiryDate": "Expiry Date",
+  "idEntryFrontImagePreviewNotice": "Uploaded front image is used for OCR and preview.",
+  "idEntryFrontSide": "Front Side",
+  "idEntryFullName": "Full Name",
+  "idEntryFullNameAsPassport": "Full Name (as in passport)",
+  "idEntryHelp": "Help",
+  "idEntryIdCard": "ID Card",
+  "idEntryImageUsedForOcrAndPreview": "This image will be used for OCR and preview.",
+  "idEntryIssuingCountry": "Issuing Country",
+  "idEntryManualDocumentEntry": "Manual Document Entry",
+  "idEntryNationality": "Nationality",
+  "idEntryNoReadableTextDetected": "No readable text detected.",
+  "idEntryNoValidReferenceFileAdded": "No valid reference file added.",
+  "idEntryOcrMobileOnly": "OCR autofill is available on mobile only.",
+  "idEntryOpenCurrentImageFullscreen": "Open current image in full screen.",
+  "idEntryOtherDocument": "Other Document",
+  "idEntryPassport": "Passport",
+  "idEntryPassportNumber": "Passport Number",
+  "idEntryPhotoLibrary": "Photo Library",
+  "idEntryPhotoLibraryMobileOnly": "Photo library is available on mobile only.",
+  "idEntryPickImageOrPdf": "Pick an image or PDF.",
+  "idEntryPreviewImageUnavailable": "Preview image is unavailable.",
+  "idEntryPreviewTitle": "Preview • {title}",
+  "idEntryReferenceAttachmentAdded": "Reference attachment added.",
+  "idEntryReferenceAttachmentChooseSource": "Choose reference source",
+  "idEntryReferenceAttachmentTitle": "Reference Attachment",
+  "idEntryReferenceAttachmentsAdded": "{count} reference attachments added.",
+  "idEntryReferenceLabelCleared": "Reference label cleared.",
+  "idEntryReferenceLabelHint": "Optional label (e.g. Front, High quality)",
+  "idEntryReferenceLabelSaved": "Reference label saved.",
+  "idEntryReferenceLabelTitle": "Reference label",
+  "idEntryReplace": "Replace",
+  "idEntryRequired": "Required",
+  "idEntryResidencePermit": "Residence Permit",
+  "idEntrySelectClearImageFromGallery": "Select a clear image from gallery.",
+  "idEntrySelectDate": "Select date",
+  "idEntrySelectHolderRelation": "Select holder relation",
+  "idEntrySelectImageFromGallery": "Select image from gallery.",
+  "idEntrySelectedFilesAlreadyAttached": "Selected files are already attached.",
+  "idEntryTakeReferencePhoto": "Take reference photo",
+  "idEntryThisOptionMobileOnly": "This option is available on mobile only.",
+  "idEntryUnableAccessCameraLibrary": "Unable to access camera or library.",
+  "idEntryUnableAccessSelectedPath": "Unable to access selected path.",
+  "idEntryUnableLoadPreviewImage": "Unable to load preview image.",
+  "idEntryUnableProcessImage": "Unable to process image right now.",
+  "idEntryUnableReadSelectedImage": "Unable to read selected image.",
+  "idEntryUnableSaveDocument": "Unable to save right now.",
+  "idEntryUnableSaveSelectedImageLocally": "Unable to save selected image locally.",
+  "idEntryUnableSelectReferenceAttachment": "Unable to select reference attachment right now.",
+  "idEntryUseCameraAutoCrop": "Use camera to capture a clear image.",
+  "idEntryUseImageForOcr": "Image selected. OCR is processing.",
+  "identityRelationDaughter": "Daughter",
+  "identityRelationFamily": "Family",
+  "identityRelationHusband": "Husband",
+  "identityRelationOther": "Other",
+  "identityRelationOwner": "Owner",
+  "identityRelationParent": "Parent",
+  "identityRelationSon": "Son",
+  "identityRelationWife": "Wife",
+  "passportAddTitle": "Add Passport",
+  "passportAiVerified": "AI Verified",
+  "passportDesktopUploadHint": "Upload an image on desktop; OCR autofill runs on mobile.",
+  "passportDetailsExtracted": "Passport details extracted.",
+  "passportDetailsTitle": "Passport Details",
+  "passportDetectedStatus": "Scan confidence: {confidence}%",
+  "passportDetectedTypeStatus": "Detected {detectedType} • confidence {confidence}%",
+  "passportDetectedTypeVerify": "Detected {detectedType}. Please verify passport fields.",
+  "passportEncryptedStorage": "End-to-end encrypted storage",
+  "passportExtractionFailed": "Extraction Failed",
+  "passportExtractionFailedDescription": "We could not automatically scan your document. Enter details manually below.",
+  "passportRetryScan": "Retry Scan",
+  "passportReviewTitle": "Review Passport",
+  "passportSaveToSecureVault": "Save to Secure Vault",
+  "passportSaveToVault": "Save to Vault",
+  "passportScanStatusCancelled": "Scan cancelled.",
+  "passportScanStatusFailed": "Scan failed.",
+  "passportScanStatusIdle": "No scan yet.",
+  "passportScanStatusNoText": "No text detected.",
+  "passportScanStatusScanning": "Scanning...",
+  "passportScannerMobileOnly": "Scanner is available on mobile only.",
+  "passportScannerUnavailableDevice": "Scanner is unavailable on this device.",
+  "passportSelectFile": "Select File",
+  "passportTapToEnlarge": "TAP TO ENLARGE",
+  "passportUnableSave": "Unable to save passport right now.",
+  "passportUnableScan": "Unable to scan right now.",
+  "passportUploadDocumentImage": "Upload Document Image",
+  "settingsConfigureTargetSection": "CONFIGURE TARGET",
+  "settingsEncryptionSection": "ENCRYPTION",
+  "settingsResetToDefaults": "Reset to Defaults",
+  "settingsSyncTargetSection": "SYNC TARGET",
+  "commonMore": "More",
+  "commonRemove": "Remove",
+  "documentDateAdded": "Date added: {dateText}",
+  "idEntryTapChooseOrDrag": "Tap to choose or drag a file.",
+  "idEntryTapCaptureOrUpload": "Tap to capture or upload.",
+  "idEntryUploadFrontSide": "Upload Front Side",
+  "idEntryUploadBackSide": "Upload Back Side",
+  "idEntryCaptureSideCaptured": "{side} captured",
+  "idEntryDropImageHere": "Drop image here",
+  "idEntryPreviewImageTitle": "Preview Image",
+  "idEntryPreviewImageDescription": "Uploaded images are used for OCR. You can also use the front image as preview in details.",
+  "idEntryUseFrontImageInDetails": "Use uploaded front image in details",
+  "idEntryPreviewUsesFrontImage": "Preview will use the uploaded front image.",
+  "idEntryPreviewDisabledNotice": "Preview is disabled.",
+  "idEntryUploadFrontFirst": "Upload front side first to enable preview image.",
+  "idEntryReferenceAttachmentsTitle": "Reference Attachments",
+  "idEntryDropFilesNow": "Drop files now",
+  "idEntryReferenceAttachmentDescription": "Optional: add high-quality reference image(s) or PDF for future verification.",
+  "idEntryReferenceFilesAttached": "{count} file(s) attached",
+  "idEntryAddReferenceImagePdf": "Add reference image/PDF",
+  "idEntryEditLabel": "Edit label",
+  "idEntryAddLabel": "Add label",
+  "idEntryMultipleFilesHint": "You can attach multiple files.",
+  "idEntryClearAll": "Clear all",
+  "idEntryDateFormatHint": "MM/DD/YYYY",
+  "idEntrySelectExpiryDate": "Select expiry date",
+  "idEntryDocumentHolder": "Document Holder",
+  "idEntryAsShownOnDocument": "As shown on document",
+  "idEntryNameFromDocument": "Name from document",
+  "idEntryIssuingAuthority": "Issuing Authority",
+  "idEntryAuthorityDepartment": "Department / Authority",
+  "idEntryOptionalNotes": "Optional notes",
+  "idEntryIdDocuments": "ID Documents",
+  "idEntryDriversLicense": "Driver's License",
+  "idEntryDocumentImages": "Document Images",
+  "idEntryPassportUploadSubtitle": "Upload your passport image.",
+  "idEntryIdentityUploadSubtitle": "Upload front and back of your ID.",
+  "idEntryResidencePermitUploadSubtitle": "Upload front and back of your residence permit.",
+  "idEntryDriversLicenseUploadSubtitle": "Upload front and back of your driver's license.",
+  "idEntryDocumentUploadSubtitle": "Upload document image(s).",
+  "idEntryPassportInformation": "Passport Information",
+  "idEntryIdInformation": "ID Information",
+  "idEntryResidencePermitInformation": "Residence Permit Information",
+  "idEntryDriversLicenseInformation": "Driver's License Information",
+  "idEntryDocumentInformation": "Document Information",
+  "idEntryIdNumber": "ID Number",
+  "idEntryPermitNumber": "Permit Number",
+  "idEntryLicenseNumber": "License Number",
+  "idEntryDocumentId": "Document ID",
+  "idEntryEnterIdentificationNumber": "Enter identification number",
+  "idEntryEnterPermitNumber": "Enter permit number",
+  "idEntryReference": "Reference",
+  "settingsHeaderTitle": "Settings",
+  "settingsHeaderSubtitle": "Manage your offline security and synchronization preferences.",
+  "settingsViewDocumentation": "View Documentation",
+  "settingsSyncStatusLabel": "SYNC STATUS",
+  "settingsSyncTargetDisabledSubtitle": "Keep data on this device only",
+  "settingsSyncTargetLocalSubtitle": "Sync to file system or NAS",
+  "settingsSyncTargetDropboxSubtitle": "Secure end-to-end cloud sync",
+  "settingsLocalStoragePath": "Local Storage Path",
+  "settingsLocalStoragePathHint": "Choose local backup folder path",
+  "settingsDropboxCredentials": "Dropbox Credentials",
+  "settingsDropboxTokenHint": "Enter Dropbox access token",
+  "settingsDropboxDirectoryHint": "Enter Dropbox folder path",
+  "settingsSyncDisabledHint": "Sync target is disabled. Data stays local.",
+  "settingsEncryptionDescription": "All data is AES-256 encrypted before sync. Only your passphrase can unlock it.",
+  "settingsSyncPassphrase": "Sync Passphrase",
+  "settingsSyncPassphraseHint": "Enter sync passphrase",
+  "settingsPendingChangesTitle": "Pending Changes",
+  "settingsPendingChangesSubtitle": "You have unsaved changes to your synchronization settings.",
+  "settingsSyncNeedsAttention": "Sync Needs Attention",
+  "settingsSyncEncryptedReady": "Encrypted & Ready",
+  "settingsSyncReadyToStart": "Ready to Start",
+  "settingsSyncReadyToSync": "Ready to Sync",
+  "settingsLastSyncedNever": "Last synced: never",
+  "settingsLastSyncedRelative": "Last synced {relative}",
+  "settingsRelativeJustNow": "just now",
+  "settingsRelativeMinutesAgo": "{minutes} minutes ago",
+  "settingsRelativeHoursAgo": "{hours} hours ago",
+  "settingsRelativeDaysAgo": "{days} days ago",
+  "settingsSyncing": "Syncing...",
+  "settingsSyncNow": "Sync Now",
+  "settingsSaveAllSettings": "Save All Settings",
+  "documentReferenceFiles": "REFERENCE FILES",
+  "documentFilesCount": "{count} files",
+  "documentPreviewUnavailable": "Preview unavailable",
+  "documentsUnableLoad": "Unable to load documents.",
+  "documentsCategoriesTitle": "Categories",
+  "documentsSelectCategory": "Select category",
+  "documentsRecentActivityTitle": "Recent Activity",
+  "documentsSeeAll": "See all",
+  "documentsLibraryTitle": "Documents Library",
+  "documentsLibrarySubtitle": "Manage your secure files offline.",
+  "documentsHeaderCount": "{count,plural, =0{No documents} =1{1 document} other{{count} documents}}",
+  "@documentsHeaderCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "documentsFilesCompact": "{count,plural, =0{No files} =1{1 file} other{{count} files}}",
+  "@documentsFilesCompact": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "documentsAttentionCompact": "{count,plural, =1{1 needs attention} other{{count} need attention}}",
+  "@documentsAttentionCompact": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "documentsSearchHint": "Search documents, files, notes",
+  "documentsRecentFilesTitle": "Recent files",
+  "documentsCollectionsEntrySubtitle": "Dynamic folders, notes, docs, expenses",
+  "documentsBundlesEntrySubtitle": "Share packs, applications, exports",
+  "documentsTasksEntrySubtitle": "Checklists and reminders",
+  "documentsCountLabel": "{count} Documents",
+  "documentsFilesCountLabel": "{count} Files",
+  "@documentsFilesCountLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "documentsUpdatedWithCategory": "Updated {relative} • {category}",
+  "documentsNoRecentActivity": "No recent activity yet.",
+  "documentsRelativeJustNow": "Just now",
+  "documentsRelativeYesterday": "Yesterday",
+  "documentsCategoryIdentity": "Identity",
+  "documentsCategorySubtitleIdentity": "Passport, ID, Driver's License",
+  "documentsCategoryWork": "Work",
+  "documentsCategorySubtitleWork": "Contracts, Payslips, Tax IDs",
+  "documentsCategoryProperty": "Property",
+  "documentsCategorySubtitleProperty": "Deeds, Rental Agreements, Utility",
+  "documentsCategoryAuto": "Auto",
+  "documentsCategorySubtitleAuto": "Registration, Insurance, Service",
+  "documentsCategoryHealth": "Health",
+  "documentsCategorySubtitleHealth": "Prescriptions, Medical Records",
+  "documentsCategoryTravel": "Travel",
+  "documentsCategorySubtitleTravel": "Trips, tickets, visas, itineraries",
+  "documentsCategoryOther": "Other",
+  "documentsCategorySubtitleOther": "Notes, invoices, and other files",
+  "travelTripsLoadError": "Unable to load trips.",
+  "travelTripsTitle": "Trips",
+  "travelTripsFilterUpcoming": "Upcoming",
+  "travelTripsFilterPast": "Past",
+  "travelTripsStatusInDays": "IN {days} DAYS",
+  "@travelTripsStatusInDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "travelTripsStatusPlanned": "PLANNED",
+  "travelTripsDatesLabel": "DATES",
+  "travelTripsDocumentsCount": "{count} Documents",
+  "@travelTripsDocumentsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "travelTripsViewDetails": "View Details",
+  "travelTripsStartNewTripTitle": "Start a new trip",
+  "travelTripsStartNewTripSubtitle": "BROWSE DESTINATIONS",
+  "travelTripsEmptyTitle": "No trips yet",
+  "travelTripsEmptySubtitle": "Create your first trip and start planning your timeline, expenses, and travel wallet.",
+  "travelTripsCreateFirstAction": "Create First Trip",
+  "travelTripEntryTitle": "Add New Trip",
+  "travelTripEditTitle": "Edit Trip",
+  "travelTripDetailsSectionTitle": "Trip Details",
+  "travelTripNotesTitle": "Trip Notes",
+  "travelTripEntrySaveAction": "Save Trip",
+  "travelTripEntryTitleField": "Trip Name",
+  "travelTripEntryTitleHint": "e.g. Summer in Tokyo",
+  "travelTripEntryDestinationField": "Destination",
+  "travelTripEntryDestinationHint": "e.g. Tokyo, Japan",
+  "travelTripEntryStartDateField": "Start Date",
+  "travelTripEntryEndDateField": "End Date",
+  "travelTripEntryCoverField": "Trip Cover Image",
+  "travelTripEntryCoverHint": "Select optional cover image",
+  "travelTripDetailLoadError": "Unable to load this trip.",
+  "travelDashboardSectionTitle": "Trip Dashboard",
+  "travelDashboardTimelineTitle": "Timeline",
+  "travelDashboardTimelineCount": "{count} events",
+  "@travelDashboardTimelineCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "travelDashboardDestinationsTitle": "Destinations",
+  "travelDashboardDestinationsCount": "{count} places",
+  "@travelDashboardDestinationsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "travelDashboardDocumentsTitle": "Documents",
+  "travelDashboardDocumentsCount": "{count} files",
+  "@travelDashboardDocumentsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "travelDashboardExpensesTitle": "Expenses",
+  "travelDashboardExpensesSpent": "{value} spent",
+  "@travelDashboardExpensesSpent": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "travelDashboardWalletTitle": "Travel Wallet",
+  "travelDashboardWalletSummary": "{count} documents ready",
+  "@travelDashboardWalletSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "travelDashboardDefaultDestination": "Your destination",
+  "travelDashboardDaysLeft": "{days} Days Left",
+  "@travelDashboardDaysLeft": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "travelDashboardHeroTitle": "Explore {destination}",
+  "@travelDashboardHeroTitle": {
+    "placeholders": {
+      "destination": {
+        "type": "String"
+      }
+    }
+  },
+  "travelTimelineTitle": "{trip} Trip Timeline",
+  "@travelTimelineTitle": {
+    "placeholders": {
+      "trip": {
+        "type": "String"
+      }
+    }
+  },
+  "travelTimelineEmptyTitle": "No timeline events yet",
+  "travelTimelineEmptySubtitle": "Add your first event to organize transport, stays, dining, and activities.",
+  "travelTimelineAddEventTitle": "Add Timeline Event",
+  "travelTimelineAddAction": "Add to Timeline",
+  "travelTimelineCategoryTravel": "Travel",
+  "travelTimelineCategoryStay": "Stay",
+  "travelTimelineCategoryDining": "Dining",
+  "travelTimelineCategoryActivity": "Activity",
+  "travelTimelineCategoryReservation": "Reservation",
+  "travelTimelineConfirmed": "CONFIRMED",
+  "travelTimelineDocumentsCount": "{count} Documents",
+  "@travelTimelineDocumentsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "travelTimelineOpenMap": "Open Map",
+  "travelExpensesTitle": "Trip Expenses",
+  "travelExpensesTotalSpentTitle": "Total Spent",
+  "travelExpensesRemainingTitle": "Remaining",
+  "travelExpensesVsLastTrip": "~ +12% vs last trip",
+  "travelExpensesBudgetLabel": "Budget: {value}",
+  "@travelExpensesBudgetLabel": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "travelExpensesBudgetStatus": "BUDGET STATUS",
+  "travelExpensesSpentLabel": "{value} spent",
+  "@travelExpensesSpentLabel": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "travelExpensesLimitLabel": "{value} limit",
+  "@travelExpensesLimitLabel": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "travelExpensesEmptyTitle": "No expenses yet",
+  "travelExpensesEmptySubtitle": "Add the first expense and track your trip budget in real time.",
+  "travelExpensesAddExpenseTitle": "Add Expense",
+  "travelExpensesAddExpenseAction": "Add Expense",
+  "travelExpensesCategoryFood": "Food",
+  "travelExpensesCategoryTransport": "Transport",
+  "travelExpensesCategoryActivities": "Activities",
+  "travelExpensesCategoryAccommodation": "Lodging",
+  "travelExpensesCategoryShopping": "Shopping",
+  "travelExpensesCategoryOther": "Other",
+  "travelBudgetTitle": "Set Trip Budget",
+  "travelBudgetSaveAction": "Save Budget",
+  "travelBudgetAllocated": "Allocated: {value}",
+  "@travelBudgetAllocated": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "travelBudgetRemaining": "Remaining: {value}",
+  "@travelBudgetRemaining": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "travelBudgetBreakdownTitle": "Budget Breakdown",
+  "travelWalletTitle": "Travel Wallet",
+  "travelWalletSectionOther": "Other Documents",
+  "travelWalletEmptyTitle": "No travel documents yet",
+  "travelWalletEmptySubtitle": "Add tickets, visas, insurance and booking confirmations for quick access.",
+  "travelWalletAddDocumentAction": "Add New Document",
+  "travelWalletUploadNewDocumentOption": "Upload New Document",
+  "travelWalletChooseFromMyDocumentsOption": "Choose from My Documents",
+  "travelWalletAddDocumentTitle": "Add Travel Document",
+  "travelWalletSaveAction": "Save to Wallet",
+  "travelWalletSelectFile": "Select File",
+  "travelWalletPickerEmptyTitle": "No documents found",
+  "travelWalletPickerEmptySubtitle": "Upload a new document to your vault first.",
+  "travelWalletNoExpirationDate": "No expiration date",
+  "travelWalletDocumentLinkedSuccess": "Document linked to this trip.",
+  "propertyHubTitle": "Property",
+  "propertyHubFilterAll": "All",
+  "propertyHubFilterOwned": "Owned",
+  "propertyHubFilterRented": "Rented",
+  "propertyHubLoadError": "Unable to load properties.",
+  "propertyHubEmptyTitle": "No properties yet",
+  "propertyHubEmptySubtitle": "Add your first property to start organizing your vault.",
+  "propertyHubAddAction": "Add Property",
+  "propertyEntryAddTitle": "Add New Property",
+  "propertyEntryEditTitle": "Edit Property",
+  "propertyEntryCardTitle": "Property Details",
+  "propertyEntryCardSubtitle": "Provide the basic identification for your new listing.",
+  "propertyEntryNameLabel": "Property Name/Nickname",
+  "propertyEntryNameHint": "e.g. Blue Lagoon Villa",
+  "propertyEntryNameRequired": "Property name is required",
+  "propertyEntryAddressLabel": "Full Address",
+  "propertyEntryAddressHint": "Enter street, city, and zip",
+  "propertyEntryAddressRequired": "Full address is required",
+  "propertyEntryAddressSearching": "Searching addresses...",
+  "propertyEntryAddressNotFound": "Could not detect a valid address.",
+  "propertyEntryAutoDetect": "Auto-detect Location",
+  "propertyEntryCategorizationTitle": "Categorization",
+  "propertyEntryTypeLabel": "Property Type",
+  "propertyEntryOwnershipLabel": "Ownership Status",
+  "propertyEntryOwnedLabel": "Owned",
+  "propertyEntryRentedLabel": "Rented",
+  "propertyEntryCreateAction": "Create Property Vault",
+  "propertyEntrySaveAction": "Save Property",
+  "propertyEntrySaveFailed": "Unable to save property. Please try again.",
+  "propertyDetailLoadError": "Unable to load property details.",
+  "propertyDetailAssetsTitle": "Property Assets",
+  "propertyDetailTypeSubtitle": "{type} Property",
+  "@propertyDetailTypeSubtitle": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "propertyDetailSubtitleFallback": "Managed Property",
+  "propertyDetailAssetDocuments": "Documents",
+  "propertyDetailAssetContracts": "Contracts",
+  "propertyDetailAssetInsurance": "Insurance",
+  "propertyDetailAssetPayments": "Payments",
+  "propertyDetailAssetMaintenance": "Maintenance",
+  "propertyDetailAssetOthers": "Others",
+  "propertyDetailFilesCount": "{count} files",
+  "@propertyDetailFilesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "propertyDetailRecordsCount": "{count} records",
+  "@propertyDetailRecordsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "propertyDetailActiveRequestsCount": "{count} active requests",
+  "@propertyDetailActiveRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "propertyDetailLastActivity": "Last activity: {activity} {relative}",
+  "@propertyDetailLastActivity": {
+    "placeholders": {
+      "activity": {
+        "type": "String"
+      },
+      "relative": {
+        "type": "String"
+      }
+    }
+  },
+  "propertyDocumentEntryTitle": "Add Document",
+  "propertyDocumentInfoSection": "Document Information",
+  "propertyDocumentCategoryLabel": "Document Category",
+  "propertyDocumentCategoryHint": "Select category",
+  "propertyDocumentCategoryRentPayment": "Rent Payment",
+  "propertyDocumentTitleLabel": "Document Title",
+  "propertyDocumentTitleHint": "e.g. Lease Agreement 2024",
+  "propertyDocumentIssueDateLabel": "Issue Date",
+  "propertyDocumentFinancialSection": "Financial Details (Optional)",
+  "propertyDocumentAmountPaidLabel": "Amount Paid",
+  "propertyDocumentAmountPaidHint": "$ 0.00",
+  "propertyDocumentAmountPaidNumericHint": "0.00",
+  "propertyDocumentPaymentDateLabel": "Payment Date",
+  "propertyDocumentSelectFile": "Select File",
+  "propertyDocumentUploadHint": "PDF, JPG or PNG (Max 10MB)",
+  "propertyDocumentSaveAction": "Save to Vault",
+  "propertyDocumentCategoryRequired": "Document category is required.",
+  "propertyDocumentUploadRequired": "Select a PDF or image first.",
+  "propertyDocumentTitleRequired": "Document title is required.",
+  "propertyDocumentFileTooLarge": "File must be 10MB or less.",
+  "propertyDocumentFileMissing": "File not found.",
+  "propertyDocumentSelectFileFailed": "Unable to select file right now.",
+  "propertyDocumentPersistFailed": "Unable to persist selected file.",
+  "propertyDocumentSaveFailed": "Unable to save document. Please try again.",
+  "propertyDocumentSharedCategoryHint": "The selected category and issue date will apply to every file. You can set a title for each document below.",
+  "propertyDocumentSelectedDocumentsTitle": "Selected documents",
+  "propertyDocumentSelectedDocumentLabel": "Document {index}",
+  "@propertyDocumentSelectedDocumentLabel": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "commonLanguageEnglish": "English",
+  "identityUnableLoadSecureIds": "Unable to load secure IDs.",
+  "identityYourDocumentsTitle": "Your Documents",
+  "identitySecureIdsStored": "{count} secure IDs stored",
+  "identityAllIdentities": "All identities",
+  "documentsArchived": "Document archived.",
+  "documentsDeleted": "Document deleted.",
+  "documentsUnableRemove": "Unable to remove document.",
+  "identityVaultIdentityFallback": "Vault Identity",
+  "identityIssuedBy": "Issued by {country}",
+  "identityExpiryShort": "Exp. {date}",
+  "identityAddedDate": "Added {date}",
+  "identityNoIdsYet": "No IDs yet",
+  "identityAddFirstDescription": "Add your first ID document to start building your secure identity vault.",
+  "identityAddFirstId": "Add First ID",
+  "identityStatusValid": "Valid",
+  "identityStatusExpiringSoon": "Expiring Soon",
+  "identityStatusExpired": "Expired",
+  "identityFilterTooltip": "Filter",
+  "identityFilterSheetTitle": "Filter identity documents",
+  "identityFilterSheetSubtitle": "Choose which secure IDs appear in the list.",
+  "identityIntroEyebrow": "Documents · Identity",
+  "identityHolderSingular": "holder",
+  "identityHolderPlural": "holders",
+  "identityNoPrimaryIdentity": "No primary identity set yet.",
+  "identityPrimaryIdentitySet": "{document} set as primary.",
+  "@identityPrimaryIdentitySet": {
+    "placeholders": {
+      "document": {
+        "type": "String"
+      }
+    }
+  },
+  "identitySearchHint": "Search by number, country, owner...",
+  "identityAllHolders": "All holders",
+  "identityPrimaryBadge": "Primary",
+  "identityNoDocumentsForFilter": "No {filter} documents",
+  "@identityNoDocumentsForFilter": {
+    "placeholders": {
+      "filter": {
+        "type": "String"
+      }
+    }
+  },
+  "identityFilteredEmptyDescription": "Try another view or add a new ID to this section.",
+  "identityClearSearch": "Clear search",
+  "identityFilterAll": "All",
+  "identityFilterPersonal": "Personal",
+  "identityFilterTravel": "Travel",
+  "identityStatusOk": "OK",
+  "identityStatusDaysLeft": "{days} d",
+  "@identityStatusDaysLeft": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "identityDocumentNumberPrefix": "No. {number}",
+  "@identityDocumentNumberPrefix": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "identityDetailFileMissingTitle": "File missing",
+  "identityDetailFileMissingDescription": "The metadata is saved, but the scan file is not available on this device.",
+  "identityDetailPagesCount": "{count} pages",
+  "@identityDetailPagesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "identityDetailSectionDocument": "Document",
+  "identityDetailSectionHolder": "Holder",
+  "identityDetailSectionOtherDetails": "Other details",
+  "identityDetailStatusExpiring": "Expiring",
+  "identityDetailStatusExpiresIn": "Expires {days} d",
+  "@identityDetailStatusExpiresIn": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "identityFieldDocumentNumber": "Document number",
+  "identityFieldIssuingCountry": "Issuing country",
+  "identityFieldExpires": "Expires",
+  "identityFieldNationality": "Nationality",
+  "identityFieldGivenName": "Given name",
+  "identityFieldFamilyName": "Family name",
+  "identityFieldDateOfBirth": "Date of birth",
+  "identityFieldSex": "Sex",
+  "identityFieldHolder": "Holder",
+  "identityFieldAgeOver18": "Age over 18",
+  "idEntryAttachmentSection": "Attachment",
+  "idEntryAddIdentityDocumentEyebrow": "Add identity document",
+  "idEntryEditIdentityDocumentEyebrow": "Edit identity document",
+  "commonManage": "Manage",
+  "workHubLoadError": "Unable to load work vaults.",
+  "workHubTitle": "Work Hub",
+  "workHubSubtitle": "Secure document vault",
+  "workHubSearchHint": "Search companies or contracts",
+  "workHubFilterAll": "All Companies",
+  "workHubFilterRecent": "Recent",
+  "workHubFilterPinned": "Pinned",
+  "workHubVaultSectionTitle": "Your Secure Vaults",
+  "workHubCompaniesCountBadge": "{count} Companies",
+  "@workHubCompaniesCountBadge": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "workHubFeaturedLabel": "NEW FEATURE",
+  "workHubFeaturedTitle": "Global Payslips",
+  "workHubFeaturedSubtitle": "Securely access and manage your entire earnings history across all associated companies.",
+  "workHubFeaturedSubtitleCompact": "Access your complete history",
+  "workHubFeaturedAction": "See All Payslips",
+  "workHubDocumentsCountCompact": "{count} documents",
+  "@workHubDocumentsCountCompact": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "workHubUpdatedCompact": "Updated {relative}",
+  "@workHubUpdatedCompact": {
+    "placeholders": {
+      "relative": {
+        "type": "String"
+      }
+    }
+  },
+  "workHubCompanySubtitle": "{count} Documents • Last updated {relative}",
+  "@workHubCompanySubtitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "relative": {
+        "type": "String"
+      }
+    }
+  },
+  "workHubEmptyTitle": "No work vaults yet",
+  "workHubEmptySubtitle": "Add your first company record to start organizing work contracts, payslips, and tax forms.",
+  "workHubAddFirstCompanyAction": "Add First Company",
+  "workHubNoAccessYet": "No access yet",
+  "workCompanyTitleFallback": "Work Company",
+  "workCompanyLoadError": "Unable to load company details.",
+  "workCompanyVaultTitle": "Company Vault",
+  "workCompanyVaultSubtitle": "Secure access to your professional documents",
+  "workCompanyStorageUsed": "STORAGE USED",
+  "workCompanyLastAccess": "LAST ACCESS",
+  "workCompanyFoldersTitle": "Document Folders",
+  "workCompanyFolderPayslipsTitle": "Payslips",
+  "workCompanyFolderContractsTitle": "Contracts",
+  "workCompanyFolderTaxFormsTitle": "Tax Forms",
+  "workCompanyFolderOffboardingTitle": "Offboarding",
+  "workCompanyFolderBenefitsTitle": "Benefits",
+  "workCompanyFolderMilestonesTitle": "Milestones",
+  "workCompanyFolderOtherTitle": "Other Types",
+  "workCompanyFolderPayslipsSubtitle": "Monthly earning statements",
+  "workCompanyFolderContractsSubtitle": "Employment and IP agreements",
+  "workCompanyFolderTaxFormsSubtitle": "Year-end summaries and tax forms",
+  "workCompanyFolderOffboardingSubtitle": "Exit documents and procedures",
+  "workCompanyFolderBenefitsSubtitle": "Insurance and benefit coverage",
+  "workCompanyFolderMilestonesSubtitle": "Promotions and performance records",
+  "workCompanyFolderOtherSubtitle": "Additional professional documents",
+  "workCompanyRecentDocumentsTitle": "RECENT DOCUMENTS",
+  "workCompanyRecentModified": "Modified {relative}",
+  "@workCompanyRecentModified": {
+    "placeholders": {
+      "relative": {
+        "type": "String"
+      }
+    }
+  },
+  "workCompanyRecentEmptyTitle": "No recent documents",
+  "workCompanyRecentEmptySubtitle": "Documents added to this company vault will appear here.",
+  "workEntryAddTitle": "Add Work Record",
+  "workEntryEditTitle": "Edit Work Record",
+  "workEntrySectionCompany": "COMPANY DETAILS",
+  "workEntryCompanyNameLabel": "Company Name",
+  "workEntryCompanyNameHint": "e.g. Stripe Inc.",
+  "workEntryFolderTypeLabel": "Folder Type",
+  "workEntryRecordTitleLabel": "Record Title",
+  "workEntryRecordTitleHint": "e.g. December Earnings",
+  "workEntryEmployeeIdLabel": "Employee ID",
+  "workEntryEmployeeIdHint": "e.g. 882910",
+  "workEntryRoleLabel": "Role",
+  "workEntryRoleHint": "e.g. Sr. Engineer",
+  "workEntryLocationLabel": "Location",
+  "workEntryLocationHint": "e.g. San Francisco",
+  "workEntryNetAmountLabel": "Net Amount",
+  "workEntryNetAmountHint": "e.g. $4,250.00",
+  "workEntryStatementDateLabel": "Statement Date",
+  "workEntryStatementDateHint": "Select date",
+  "workEntryNotesLabel": "Notes",
+  "workEntryNotesHint": "Optional notes...",
+  "workEntryPinCompany": "Pin this company",
+  "workEntryPinCompanyHint": "Pinned companies appear in quick filters.",
+  "workStatementsSubtitle": "Payroll Vault",
+  "workStatementsAllYears": "All",
+  "workStatementsRecentTitle": "RECENT STATEMENTS",
+  "workStatementsArchivedCount": "{count} archived",
+  "@workStatementsArchivedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "workStatementsStatusVerified": "Verified",
+  "workStatementsNetTakeHome": "NET TAKE-HOME",
+  "workStatementsArchiveOnly": "Archive only",
+  "workStatementsViewSlip": "View Statement",
+  "workStatementsEmptyTitle": "No statements found",
+  "workStatementsEmptySubtitle": "Try a different year or add a new work record.",
+  "workEntrySelectCompanyFirst": "Select a company first.",
+  "workDocumentEntryTitle": "Add Document",
+  "workDocumentEntryCategories": "WORK CATEGORIES",
+  "workDocumentEntryTargetVault": "TARGET VAULT",
+  "workPayslipAddTitle": "Add Payslip",
+  "workPayslipSectionPaymentMonth": "PAYMENT MONTH",
+  "workPayslipSectionNetSalary": "NET SALARY",
+  "workPayslipOptional": "Optional",
+  "workPayslipSectionUploadMethods": "UPLOAD METHODS",
+  "workPayslipMethodScanTitle": "Scan Payslip",
+  "workPayslipMethodScanSubtitle": "Powered by AI Extraction",
+  "workPayslipMethodUploadPdfTitle": "Upload PDF or Image",
+  "workPayslipMethodUploadPdfSubtitle": "Pick from files, gallery, or camera",
+  "workPayslipMethodManualTitle": "Manual Entry",
+  "workPayslipMethodManualSubtitle": "Fill in details yourself",
+  "workPayslipSectionTargetVault": "TARGET VAULT",
+  "workPayslipTargetVaultSubtitle": "Company Managed Vault",
+  "workPayslipSelectCompanyPlaceholder": "Select company",
+  "workPayslipNoCompanyAvailable": "No created companies found yet.",
+  "workPayslipPickCamera": "Take photo",
+  "workPayslipUnableSaveFileLocally": "Unable to save selected file locally.",
+  "workPayslipUnableSelectFile": "Unable to select file right now.",
+  "workPayslipSelectFileFirst": "Select a PDF or image first.",
+  "workPayslipNetSalaryHint": "0.00",
+  "workPayslipHistoryTitle": "Payslips History",
+  "workPayslipHistoryRecentDocuments": "RECENT DOCUMENTS",
+  "workPayslipHistoryItemsCount": "{count} items",
+  "@workPayslipHistoryItemsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "workPayslipHistoryNetPay": "Net Pay",
+  "workPayslipHistoryLoadOlder": "Load Older Payslips",
+  "workPayslipHistoryAllLoaded": "All payslips are loaded.",
+  "workPayslipHistoryNoDataTitle": "No payslips yet",
+  "workPayslipHistoryNoDataSubtitle": "Your payslip documents will appear here.",
+  "workPayslipHistorySearchHint": "Search payslips...",
+  "workPayslipHistorySearchButton": "Search",
+  "workPayslipHistorySearchApply": "Apply",
+  "workPayslipHistorySearchClear": "Clear",
+  "workManualEntryAddTitle": "Add Work Document",
+  "workManualEntryEditTitle": "Edit Work Document",
+  "workManualEntrySectionDocumentDetails": "Document Details",
+  "workManualEntryDocumentTypeLabel": "Document Type",
+  "workManualEntrySharedTypeHint": "The selected type and vault assignment will apply to every file. Set a title for each document below.",
+  "workManualEntryAssignVaultLabel": "Assign to Vault (Employer)",
+  "workManualEntryDocumentTitleLabel": "Document Title",
+  "workManualEntrySectionSelectedDocuments": "Selected Documents",
+  "workManualEntryDocumentTitleHint": "e.g. Payslip April 2026",
+  "workManualEntrySelectedDocumentLabel": "Document {index}",
+  "@workManualEntrySelectedDocumentLabel": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "workManualEntrySectionTimeline": "Timeline",
+  "workManualEntryEffectiveDateLabel": "Effective Date",
+  "workManualEntryExpiryDateLabel": "Expiry Date",
+  "workManualEntryDatePlaceholder": "mm/dd/yyyy",
+  "workManualEntryOngoingLabel": "Ongoing / Permanent",
+  "workManualEntryOngoingHint": "No fixed expiration date",
+  "workManualEntrySectionNotes": "Document Notes",
+  "workManualEntryLabelFieldLabel": "Label (Optional)",
+  "workManualEntryLabelHint": "e.g. March 2026, Q1 Report, Signed copy...",
+  "workManualEntryNotesFieldLabel": "Contract Terms or Internal Notes",
+  "workManualEntryNotesHint": "Mention key clauses, salary details, or review highlights...",
+  "workManualEntryUploadTitle": "Upload Original File",
+  "workManualEntryUploadSubtitle": "PDF, Word, Excel, PPT, images & more (Max 10MB)",
+  "workManualEntryAddButton": "Add Work Document",
+  "workManualEntrySelectUploadFirst": "Upload a PDF or image first.",
+  "workManualEntryFileTooLarge": "File exceeds 10MB. Select a smaller file.",
+  "workManualEntryTypeEmploymentContract": "Employment Contract",
+  "workManualEntryTypeEmployerCertificate": "Employer Certificate",
+  "workManualEntryTypeInternshipAgreement": "Internship Agreement",
+  "workManualEntryTypeTaxDeclaration": "Tax Declaration",
+  "workManualEntryTypeTaxCertificate": "Tax Certificate",
+  "workManualEntryTypeBenefitsEnrollment": "Benefits Enrollment",
+  "workManualEntryTypeInsuranceCoverage": "Insurance Coverage",
+  "workManualEntryTypeResignationLetter": "Resignation Letter",
+  "workManualEntryTypeTerminationNotice": "Termination Notice",
+  "workManualEntryTypeFinalSettlement": "Final Settlement",
+  "workManualEntryTypeEndOfServiceCert": "End of Service Certificate",
+  "workManualEntryTypeNonCompete": "Non-Compete Agreement",
+  "workManualEntryTypeSalarySlip": "Salary Slip",
+  "workManualEntryTypeReferenceLetter": "Reference Letter",
+  "workManualEntryTypePerformanceReview": "Performance Review",
+  "workManualEntryTypePromotionLetter": "Promotion Letter",
+  "workManualEntryTypeTrainingCert": "Training Certificate",
+  "workManualEntryTypeQuittance": "Rent Receipt",
+  "workManualEntryTypeOther": "Other Work Document",
+  "workPayslipTitleTemplate": "Payslip {month}",
+  "@workPayslipTitleTemplate": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "workFolderHistoryContractsAndLegal": "Contracts & Legal",
+  "workFolderHistoryAllDocuments": "ALL DOCUMENTS ({count})",
+  "@workFolderHistoryAllDocuments": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "workFolderHistorySort": "Sort",
+  "workFolderHistorySortNewest": "Newest",
+  "workFolderHistorySortOldest": "Oldest",
+  "workFolderHistorySortTitle": "Title A-Z",
+  "workFolderHistoryAdded": "Added: {date} • {size}",
+  "@workFolderHistoryAdded": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "workFolderHistorySearchTitle": "Search",
+  "workFolderHistorySearchHint": "Search documents...",
+  "workFolderHistoryNoDocumentsTitle": "No documents yet",
+  "workFolderHistoryNoDocumentsSubtitle": "Your folder documents will appear here.",
+  "collectionDetailFolderTitle": "Folder Details",
+  "collectionDetailDocumentTitle": "Document Details",
+  "collectionDetailNoteTitle": "Note Details",
+  "collectionDetailInputTitle": "Field Details",
+  "collectionDetailChecklistTitle": "Checklist Details",
+  "collectionDetailLinkTitle": "Link Details",
+  "collectionDetailImageTitle": "Image Details",
+  "collectionDetailExpenseTitle": "Expense Details",
+  "collectionDetailTimelineTitle": "Event Details",
+  "collectionDetailLocationTitle": "Location Details",
+  "collectionDetailSectionTitle": "Section Details",
+  "collectionDetailActions": "ACTIONS",
+  "collectionDetailTaskList": "TASK LIST",
+  "collectionDetailDescription": "DESCRIPTION",
+  "collectionDetailAttachment": "ATTACHMENT",
+  "collectionDetailCompletionProgress": "Completion Progress",
+  "collectionDetailShareDocument": "Share Document",
+  "collectionDetailPreview": "Preview",
+  "collectionDetailDownload": "Download",
+  "collectionDetailOpenLink": "Open Link",
+  "collectionDetailEditImage": "Edit Image",
+  "collectionDetailOpenInMaps": "Open in Maps",
+  "collectionDetailMovePrintPdf": "Print PDF",
+  "collectionDetailMoveToCollection": "Move to Collection",
+  "collectionDetailShareLink": "Share Link",
+  "collectionDetailShare": "Share",
+  "collectionDetailDeleteLink": "Delete Link",
+  "collectionDetailDeleteFolder": "Delete Folder",
+  "collectionDetailDeleteSection": "Delete Section",
+  "collectionDetailDeleteChecklist": "Delete Checklist",
+  "collectionDetailRemove": "Remove",
+  "collectionDetailDelete": "Delete",
+  "collectionDetailEdit": "Edit",
+  "collectionDetailRearrange": "Rearrange",
+  "collectionDetailDeleteBlockTitle": "Delete Block",
+  "collectionDetailDeleteBlockMessage": "This action cannot be undone.",
+  "collectionDetailCancel": "Cancel",
+  "collectionDetailDateNotSet": "Date not set",
+  "collectionDetailTimeNotSet": "Time not set",
+  "collectionDetailNoLocationSet": "No location set",
+  "collectionDetailNoFileAttached": "No file attached",
+  "collectionDetailFileNotFound": "File not found",
+  "collectionDetailTaskCount": "{done} of {total} tasks",
+  "@collectionDetailTaskCount": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "collectionDetailPreviewAvailable": "PREVIEW AVAILABLE",
+  "collectionDetailItemCount": "{count} {count, plural, =1{item} other{items}}",
+  "@collectionDetailItemCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "collectionDetailFolderCount": "{count} {count, plural, =1{folder} other{folders}}",
+  "@collectionDetailFolderCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "collectionDetailReminderCount": "{count} {count, plural, =1{reminder} other{reminders}}",
+  "@collectionDetailReminderCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "collectionEntryDocumentInfo": "DOCUMENT INFORMATION",
+  "collectionEntryDetails": "DETAILS",
+  "collectionEntrySource": "SOURCE",
+  "collectionEntryChange": "Change",
+  "collectionEntrySecuritySettings": "SECURITY SETTINGS",
+  "collectionEntryChooseIcon": "CHOOSE ICON",
+  "collectionEntrySearchIcon": "Search icon",
+  "collectionEntryUseEmoji": "Use emoji",
+  "collectionEntryPickLocalImage": "Pick local image",
+  "collectionEntryLocalImageSelected": "Local image selected",
+  "collectionEntryEmojiSelected": "Emoji selected",
+  "collectionEntryBlockIconHint": "Search for a symbol, pick a local image, or use an emoji.",
+  "collectionEntryNoIconsFound": "No matching icons found.",
+  "collectionEntryEmojiHint": "Emoji or short label",
+  "collectionEntryLocationDetails": "LOCATION DETAILS",
+  "collectionEntryLocationSearchSection": "SEARCH",
+  "collectionEntryLocationResult": "RESULT",
+  "collectionEntryLocationResultMap": "RESULT · MAP",
+  "collectionEntryLocationSuggestions": "SUGGESTIONS",
+  "collectionEntryLocationLabelField": "LABEL",
+  "collectionEntryLocationAddressField": "ADDRESS",
+  "collectionEntryLocationLatitude": "LAT",
+  "collectionEntryLocationLongitude": "LONG",
+  "collectionEntryLocationNoResultSelected": "Select a place to preview the map.",
+  "collectionEntryLocationMapsHelp": "Open in Maps from the detail page.",
+  "collectionEntryCurrency": "CURRENCY",
+  "collectionEntryDate": "DATE",
+  "collectionEntryCategory": "CATEGORY",
+  "collectionEntryReceipt": "RECEIPT",
+  "collectionEntryCurrentSelection": "CURRENT SELECTION",
+  "collectionEntryFolderName": "Folder Name",
+  "collectionEntrySectionName": "Section Name",
+  "collectionEntryDocumentTitle": "Document Title",
+  "collectionEntryEventTitle": "Event Title",
+  "collectionEntryEventType": "Event Type",
+  "collectionEntryDateTime": "Date & Time",
+  "collectionEntryFieldType": "Field Type",
+  "collectionEntryPasteOrType": "Paste or type",
+  "collectionEntryPreviewFetched": "PREVIEW · FETCHED",
+  "collectionEntryPreviewFetching": "PREVIEW · FETCHING",
+  "collectionEntryTitleOverride": "Title · Override",
+  "collectionEntryInputTypeSection": "TYPE",
+  "collectionEntryInputFieldSection": "FIELD",
+  "collectionEntryInputPreviewCopy": "PREVIEW · TAP TO COPY",
+  "collectionEntryInputCopyAction": "copy",
+  "collectionEntryInputCopyHelp": "Tap-to-copy is enabled on Short text, Number, Phone, and URL field types.",
+  "collectionEntryLabel": "Label",
+  "collectionEntryValue": "Value",
+  "collectionEntryTitle": "Title",
+  "collectionEntryDescription": "Description",
+  "collectionEntryDescriptionOptional": "Description (optional)",
+  "collectionEntryCollapsedByDefault": "Collapsed by default",
+  "collectionEntryUrl": "URL",
+  "collectionEntryLocation": "Location",
+  "collectionEntryExpiryDate": "Expiry Date",
+  "collectionEntryNoteContent": "Note Content",
+  "collectionEntryNotes": "Notes",
+  "collectionEntryNotesOptional": "Notes (optional)",
+  "collectionEntrySecurityLevel": "Security Level",
+  "collectionEntryAmount": "Amount",
+  "collectionEntryChecklistIdentity": "Checklist Identity",
+  "collectionEntryTaskItems": "Task Items",
+  "collectionEntrySearchPlace": "Search for a place",
+  "collectionEntryHintFolderName": "e.g. Itinerary",
+  "collectionEntryHintFolderDesc": "Organize your workspace items in this folder",
+  "collectionEntryHintSectionName": "e.g. Important Documents",
+  "collectionEntryHintSectionDesc": "Describe what this section contains...",
+  "collectionEntryHintDocTitle": "e.g. Passport 2024",
+  "collectionEntryHintDocumentNotes": "Source, context, or notes about this file...",
+  "collectionEntryHintEventTitle": "e.g. Inventory walk-through with landlord",
+  "collectionEntryHintLocation": "e.g. Riverside Park",
+  "collectionEntryHintLocationLabel": "e.g. Apartment — Rue de Lille",
+  "collectionEntryHintUrl": "https://example.com",
+  "collectionEntryHintAutoTitle": "Auto-fetching title...",
+  "collectionEntryHintLinkDesc": "Add a brief description of this link",
+  "collectionEntryHintFieldLabel": "e.g. Camera Serial",
+  "collectionEntryHintFieldValue": "Enter the field content",
+  "collectionEntryHintChecklist": "e.g. European Summer Trip",
+  "collectionEntryHintNoteContent": "Start typing your secure note...",
+  "collectionEntryHintEventDesc": "Bring printed inventory · 2 copies",
+  "collectionEntryHintImageNotes": "Add some context or secure notes...",
+  "collectionEntryHintImageTitle": "Give your entry a name",
+  "collectionEntryHintAddress": "1200 Avenue of the Americas, NY",
+  "collectionEntryHintTagLabels": "e.g. Work, Secret Stash",
+  "collectionEntryHintChecklistItem": "Checklist item",
+  "collectionEntryHintAddTask": "Add another task...",
+  "collectionEntryHideField": "Hide field in vault view",
+  "collectionEntryEnableQuickCopy": "Enable quick copy",
+  "collectionEntryNewEntry": "New Entry",
+  "collectionEntryNewEntrySubtitle": "Securing your new resource in the vault.",
+  "collectionEntryPreviewLabel": "PREVIEW",
+  "collectionEntryPreviewHint": "The preview will automatically generate once a valid URL is added.",
+  "collectionEntryLoadingPreview": "Loading preview...",
+  "collectionEntrySuggestedTasks": "Suggested Tasks",
+  "collectionEntryEncryptedNote": "This note will be encrypted and stored securely in your private vault.",
+  "collectionEntryValidationTitle": "Please fill the required title field.",
+  "collectionEntryItemsCount": "{count} Items",
+  "@collectionEntryItemsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "collectionEntryAddFolder": "Add folder",
+  "collectionEntryEditFolder": "Edit folder",
+  "collectionEntryAddSection": "Add section",
+  "collectionEntryEditSection": "Edit section",
+  "collectionEntryAddDocument": "Add Document",
+  "collectionEntryAddNote": "Add note",
+  "collectionEntryEditNote": "Edit note",
+  "collectionEntryAddInput": "Add field",
+  "collectionEntryAddChecklist": "New Checklist",
+  "collectionEntryAddLink": "Add link",
+  "collectionEntryEditLink": "Edit link",
+  "collectionEntryAddImage": "Add image",
+  "collectionEntryAddExpense": "Add Expense",
+  "collectionEntryAddEvent": "Add event",
+  "collectionEntryEditEvent": "Edit event",
+  "collectionEntryAddLocation": "Add Location",
+  "collectionEntryEditLocation": "Edit location",
+  "collectionEntryReplaceFile": "Replace",
+  "collectionEntrySourceFiles": "Files",
+  "collectionEntrySourcePhotos": "Photos",
+  "collectionEntrySourceScan": "Scan",
+  "collectionEntrySaveVault": "Save to Vault",
+  "collectionEntrySaveNote": "Save Note",
+  "collectionEntrySaveField": "Save Field",
+  "collectionEntrySaveChecklist": "Save Checklist",
+  "collectionEntrySaveLink": "Save Link",
+  "collectionEntrySaveImage": "Save Image",
+  "collectionEntrySaveExpense": "Save Expense",
+  "collectionEntrySaveEvent": "Save Event",
+  "collectionEntryCreateFolder": "Create Folder",
+  "collectionEntryCreateSection": "Create Section",
+  "collectionEntryUploadDocument": "Upload Document",
+  "collectionEntryUploadImage": "Upload Image",
+  "collectionEntryUploadReceipt": "Upload receipt",
+  "collectionEntryUploadFiles": "Tap to upload files",
+  "collectionEntryUploadDefault": "Upload",
+  "collectionEntryUploadDocHint": "Drag and drop your file here, or tap to browse",
+  "collectionEntryUploadImageHint": "Tap to select from gallery or drag and drop",
+  "collectionEntryUploadReceiptHint": "PNG, JPG or PDF up to 10MB",
+  "collectionEntryUploadFileHint": "PDF, DOCX, or Images up to 10MB",
+  "collectionEntrySelectFile": "Select File",
+  "collectionDashboardKind": "Collection",
+  "collectionDashboardDone": "Done",
+  "collectionDashboardEmptyState": "No items yet. Tap Add Block to get started.",
+  "collectionDashboardAddBlock": "Add Block",
+  "collectionDashboardCopied": "Copied",
+  "collectionDashboardCopy": "Copy",
+  "collectionDashboardRearrange": "Rearrange",
+  "collectionDashboardRecentlyAdded": "Recently added",
+  "collectionDashboardJustNow": "just now",
+  "collectionFolderTitle": "Folder",
+  "collectionFolderRetry": "Retry",
+  "collectionFolderNotFound": "Folder not found.",
+  "collectionFolderEmpty": "This folder is empty.",
+  "collectionFolderBlocks": "BLOCKS",
+  "collectionFolderContents": "CONTENTS",
+  "collectionReorderTitle": "Reorder blocks",
+  "collectionReorderInstruction": "Drag the handle to reorder · long-press a row for actions.",
+  "collectionBlockFolder": "Folder",
+  "collectionBlockSection": "Section",
+  "collectionBlockDocument": "Document",
+  "collectionBlockNote": "Note",
+  "collectionBlockInput": "Input",
+  "collectionBlockChecklist": "Checklist",
+  "collectionBlockLink": "Link",
+  "collectionBlockImage": "Image",
+  "collectionBlockExpense": "Expense",
+  "collectionBlockTimeline": "Timeline",
+  "collectionBlockLocation": "Location",
+  "collectionBlockFolderDesc": "Organize files",
+  "collectionBlockSectionDesc": "Group blocks",
+  "collectionBlockDocumentDesc": "Rich text doc",
+  "collectionBlockNoteDesc": "Quick thought",
+  "collectionBlockInputDesc": "Text field",
+  "collectionBlockChecklistDesc": "Task list",
+  "collectionBlockLinkDesc": "Web resource",
+  "collectionBlockImageDesc": "Upload photo",
+  "collectionBlockExpenseDesc": "Track spend",
+  "collectionBlockTimelineDesc": "Event log",
+  "collectionBlockLocationDesc": "Pin place",
+  "collectionAddBlockTitle": "Add a block",
+  "collectionAddBlockSubtitle": "Choose a component to add to your workspace",
+  "collectionAddBlockSearch": "Filter blocks",
+  "collectionAddBlockStructural": "Structural",
+  "collectionAddBlockContent": "Content",
+  "collectionAddBlockNoResults": "No matching blocks",
+  "collectionCategoryMilestone": "Milestone",
+  "collectionCategoryDeadline": "Deadline",
+  "collectionCategoryReminder": "Reminder",
+  "collectionCategoryIdentity": "Identity",
+  "collectionCategoryTravel": "Travel",
+  "collectionCategoryFinance": "Finance",
+  "collectionCategoryOther": "Other",
+  "collectionCategoryPersonal": "Personal",
+  "collectionCategoryWork": "Work",
+  "collectionCategoryTransport": "Transport",
+  "collectionCategoryFood": "Food",
+  "collectionCategoryShopping": "Shopping",
+  "collectionCategoryRent": "Rent",
+  "collectionSecurityStandard": "Standard",
+  "collectionSecurityConfidential": "Confidential",
+  "collectionSecurityTopSecret": "Top Secret",
+  "collectionFieldShortText": "Short Text",
+  "collectionFieldNumber": "Number",
+  "collectionFieldDate": "Date",
+  "collectionFieldPhone": "Phone",
+  "collectionBlockReminder": "Reminder",
+  "collectionBlockReminderDesc": "Set alert",
+  "collectionDetailReminderTitle": "Reminder Details",
+  "collectionDetailDeleteReminder": "Delete Reminder",
+  "collectionEntryAddReminder": "Add Reminder",
+  "collectionEntryEditReminder": "Edit reminder",
+  "collectionEntrySaveReminder": "Save Reminder",
+  "collectionEntryScheduleReminder": "Schedule",
+  "collectionEntryReminderTitle": "Reminder Title",
+  "collectionEntryReminderHintTitle": "e.g. Renew passport",
+  "collectionEntryReminderNote": "Note",
+  "collectionEntryReminderHintNote": "Add a note for this reminder...",
+  "collectionEntryReminderDateTime": "Date & Time",
+  "collectionEntryReminderWhen": "WHEN",
+  "collectionEntryReminderRepeat": "Repeat",
+  "collectionEntryReminderSystemHelp": "Reminders use the system notifications service. Vault stays locked.",
+  "collectionEntryIconSection": "ICON",
+  "collectionEntryFolderIconHelp": "Changing the folder icon doesn't touch the collection's icon or its other blocks.",
+  "collectionEntrySectionIconHelp": "Section icons are independent from folder and collection icons.",
+  "collectionEntrySectionIconSearchHint": "utility",
+  "collectionEntryDeleteFolder": "Delete folder",
+  "collectionEntryDefaultState": "DEFAULT STATE",
+  "collectionEntryCollapsed": "Collapsed",
+  "collectionEntryExpanded": "Expanded",
+  "collectionEntryTimelineEvent": "EVENT",
+  "collectionEntryTimelineNotes": "NOTES",
+  "collectionEntryTimelineWhen": "WHEN",
+  "collectionEntryTimelineCategory": "CATEGORY",
+  "collectionEntryTimelineCategoryTrip": "Trip",
+  "collectionEntryTimelineCategoryAdmin": "Admin",
+  "collectionEntryTimelineCategoryProperty": "Property",
+  "collectionEntryTimelineCategoryHealth": "Health",
+  "collectionEntryTimelineCategoryWork": "Work",
+  "collectionEntryTimelineLinked": "LINKED",
+  "collectionEntryTimelineLinkedPlaceholder": "Link a collection item",
+  "collectionEntryTimelineLinkedSheetTitle": "Linked item",
+  "collectionEntryTimelineLinkedHint": "e.g. Apartment · Rue de Lille",
+  "collectionReminderNone": "None",
+  "collectionReminderOnce": "Once",
+  "collectionReminderDaily": "Daily",
+  "collectionReminderWeekly": "Weekly",
+  "collectionReminderMonthly": "Monthly",
+  "collectionReminderQuarterly": "Quarterly",
+  "collectionReminderYearly": "Yearly",
+  "collectionReminderScheduled": "Scheduled",
+  "backupTitle": "Backup & Restore",
+  "backupUnableLoad": "Unable to load backups right now.",
+  "backupRetry": "Retry",
+  "backupCreating": "Creating Backup...",
+  "backupCreateButton": "Create Backup",
+  "backupCreateTitle": "Create Backup",
+  "backupCreateSubtitle": "Enter a passphrase to encrypt your backup. You will need this passphrase to restore.",
+  "backupHistorySection": "BACKUP HISTORY",
+  "backupRestorePreview": "Restore Preview",
+  "backupRestoreWarning": "Your current data will be replaced. An emergency backup will be created first.",
+  "backupRestoreTitle": "Restore Backup",
+  "backupRestoreSubtitle": "Enter the passphrase used when this backup was created.",
+  "backupDeleteTitle": "Delete Backup",
+  "backupNoHistory": "No backup history",
+  "backupNoHistorySubtitle": "Your backup history will appear here once you create your first backup.",
+  "backupNoBackups": "No backups yet",
+  "backupNoBackupsSubtitle": "Create your first encrypted backup to protect your data.",
+  "backupLastBackup": "Last Backup",
+  "backupAutoTitle": "Auto Backup",
+  "backupAutoSubtitle": "Automatically back up when you open the app",
+  "backupCloudStorage": "Cloud Storage",
+  "backupCloudBackups": "Cloud Backups",
+  "backupCloudChecking": "Checking...",
+  "backupCloudUnableCheck": "Unable to check — tap refresh",
+  "backupCloudRestoreTitle": "Restore from Cloud",
+  "backupCloudRestoreWarning": "This will download and restore the backup. Your current data will be replaced.",
+  "backupInterruptedWarning": "A previous restore was interrupted. Your data may be in an inconsistent state.",
+  "backupPassphraseHint": "Passphrase",
+  "backupAuthCodeHint": "Paste authorization code here",
+  "backupAuthFailed": "Authorization failed or cancelled.",
+  "backupConnectionFailed": "Connection failed",
+  "backupSoon": "Soon",
+  "backupConnected": "Connected",
+  "backupConnect": "Connect",
+  "backupDisconnect": "Disconnect",
+  "backupUploadICloud": "Upload to iCloud",
+  "backupComingSoon": "Coming soon",
+  "commonDelete": "Delete",
+  "commonRestore": "Restore",
+  "commonDismiss": "Dismiss",
+  "commonRollback": "Rollback",
+  "commonActive": "Active",
+  "backupDeviceTitle": "Device Info",
+  "backupDeviceUnableLoad": "Unable to load device info.",
+  "backupDeviceId": "Device ID",
+  "backupDevicePlatform": "Platform",
+  "backupDeviceAppVersion": "App Version",
+  "backupDeviceFirstSeen": "First Seen",
+  "backupDeviceActiveWriter": "Active Backup Writer",
+  "backupDeviceActiveWriterDesc": "This device is the active backup writer.",
+  "backupHealthTitle": "Backup Health",
+  "backupHealthUnableLoad": "Unable to load health data.",
+  "backupHealthChainStatus": "CHAIN STATUS",
+  "backupHealthStatus": "Status",
+  "backupHealthStatusEmpty": "Empty",
+  "backupHealthStatusActive": "Active",
+  "backupHealthChainDepth": "Chain Depth",
+  "backupHealthBaseDate": "Base Date",
+  "backupHealthHeadDate": "Head Date",
+  "backupHealthStats": "BACKUP STATS",
+  "backupHealthLastBackup": "Last Backup",
+  "backupHealthNever": "Never",
+  "backupHealthTotalBackups": "Total Backups",
+  "backupHealthStorageUsed": "Storage Used",
+  "backupHealthEncryption": "Encryption",
+  "backupHealthDevice": "DEVICE",
+  "backupHealthName": "Name",
+  "backupHealthIntegrity": "INTEGRITY",
+  "backupHealthChecking": "Checking...",
+  "backupHealthRunCheck": "Run Integrity Check",
+  "backupHealthRebuildChain": "Rebuild Chain",
+  "backupHealthRebuildNotAvailable": "Chain rebuild is not yet available.",
+  "collectionsTitle": "Collections",
+  "collectionsNewCollection": "+ New Collection",
+  "collectionsCreateTitle": "Create Collection",
+  "collectionsChooseStarting": "Choose a starting point",
+  "collectionsChooseSubtitle": "Start from scratch or pick a template.\nTap preview to explore before choosing.",
+  "collectionsRecommendedTemplates": "RECOMMENDED TEMPLATES",
+  "collectionsSearchResults": "SEARCH RESULTS",
+  "collectionsNoTemplatesFound": "No templates found",
+  "collectionsSearchTemplatesHint": "Search templates...",
+  "collectionBlockRename": "Rename",
+  "collectionBlockDuplicate": "Duplicate",
+  "collectionBlockLockWithPin": "Lock with PIN",
+  "collectionBlockMove": "Move to another collection",
+  "collectionListYours": "Yours",
+  "collectionListStartFromTemplate": "Start from a template",
+  "collectionBlockDelete": "Delete",
+  "collectionBlockRenamed": "Renamed successfully",
+  "collectionBlockDuplicated": "Duplicated successfully",
+  "collectionBlockDeleted": "Deleted successfully",
+  "collectionBlockRenameHint": "Enter new name",
+  "collectionBlockProgress": "Progress",
+  "collectionBlockProgressDesc": "Track progress toward a goal with a visual bar",
+  "collectionEntryProgressTitle": "TITLE",
+  "collectionEntryProgressHintTitle": "e.g. Payment plan, Savings goal",
+  "collectionEntryProgressCurrent": "CURRENT",
+  "collectionEntryProgressCurrentOf": "CURRENT · OF {target}",
+  "@collectionEntryProgressCurrentOf": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "collectionEntryProgressTarget": "TARGET",
+  "collectionEntryProgressDue": "DUE",
+  "collectionEntryProgressValues": "VALUES",
+  "collectionEntryProgressType": "TYPE",
+  "collectionEntryProgressTypeCurrency": "Currency",
+  "collectionEntryProgressTypeQuantity": "Quantity",
+  "collectionEntryProgressTypeDistance": "Distance",
+  "collectionEntryProgressTypeCustom": "Custom",
+  "collectionEntryProgressCustomUnit": "custom",
+  "collectionEntryProgressCurrency": "CURRENCY (OPTIONAL)",
+  "collectionEntryProgressUnit": "UNIT (OPTIONAL)",
+  "collectionEntryProgressUnitNone": "None",
+  "collectionEntryProgressUnitCustomHint": "Or type a custom unit...",
+  "collectionEntryProgressHintDesc": "Add notes about this tracker...",
+  "collectionEntryAddProgress": "Add Progress",
+  "collectionEntryEditProgress": "Edit progress",
+  "collectionEntrySaveProgress": "Save Progress",
+  "collectionDetailProgressTitle": "Progress",
+  "collectionsBlankTitle": "Blank Collection",
+  "collectionsBlankSubtitle": "Start with a clean slate",
+  "collectionsSelected": "Selected",
+  "collectionsSelect": "Select",
+  "collectionsStep2of3": "Step 2 of 3",
+  "collectionsIncludedBlocks": "INCLUDED BLOCKS",
+  "collectionsUseTemplate": "Use This Template",
+  "collectionsAccentColor": "Accent Color",
+  "collectionsPickColor": "Pick a Color",
+  "collectionsNameHint": "e.g. Summer Destinations",
+  "collectionsNameRequired": "Please enter a collection name.",
+  "collectionsColorHint": "#FF5733",
+  "settingsExportPassphraseTitle": "Export Passphrase",
+  "settingsExportPassphraseHint": "Enter passphrase to encrypt export",
+  "settingsExportButton": "Export",
+  "settingsBackupSubtitle": "Create and restore encrypted backups",
+  "settingsExportSubtitle": "Export your vault as a portable archive",
+  "settingsDataSection": "DATA",
+  "navHome": "Home",
+  "navCredentials": "Credentials",
+  "navDocuments": "Documents",
+  "navProfile": "Profile",
+  "navVault": "Vault",
+  "navDocs": "Docs",
+  "navSearch": "Search",
+  "navMe": "Me",
+  "homeSmartReminders": "Smart Reminders",
+  "homeQuickAccess": "Quick Access",
+  "homeRecentActivity": "Recent Activity",
+  "homeVaultInsights": "Vault Insights",
+  "homeEverythingGood": "Everything looks good",
+  "homeVaultUpToDate": "Your vault is secure and up to date",
+  "homeVaultStatus": "Vault status",
+  "homeVaultAtGlance": "Vault at a glance",
+  "homeStatusNeedsAttention": "Needs attention",
+  "homeHealthy": "Healthy",
+  "homeNeedsAttention": "Needs your attention",
+  "homeNoAttentionNeeded": "No attention needed",
+  "homeNoAttentionSubtitle": "Your vault has no urgent reminders right now.",
+  "homeAlerts": "alerts",
+  "homeItems": "items",
+  "homeIssues": "issues",
+  "homeOpen": "open",
+  "homeOpenTasks": "open tasks",
+  "homeBackupLocal": "Local backup",
+  "homeLocalOnly": "Local-first",
+  "homeQuickOpen": "Quick open",
+  "homePinned": "Pinned",
+  "homeViewAll": "View all",
+  "homeLastUpdated": "Last updated",
+  "homeToday": "Today",
+  "homeSoonestFirst": "Soonest first",
+  "homeRecentEmptyTitle": "No recent activity yet",
+  "homeRecentEmptySubtitle": "Items you open or update will appear here.",
+  "homeSetupEmptyTitle": "A calm place for your private things.",
+  "homeSetupEmptySubtitle": "Add your first credential, document, collection, or task to start building your encrypted vault.",
+  "homeAddFirstItem": "Add your first item",
+  "homeUnableDashboard": "Unable to load dashboard",
+  "homeUnableDashboardSubtitle": "Something went wrong while loading\nyour home screen.",
+  "homeTryAgain": "Try again",
+  "homePreferencesTitle": "Home Preferences",
+  "homeResetDefaults": "Reset to Defaults",
+  "homeVisibleSections": "Visible Sections",
+  "homeCategories": "Categories",
+  "homeSmartRules": "Smart Rules",
+  "homeExpiringDocuments": "Expiring Documents",
+  "homeMissingAttention": "Missing / Attention Required",
+  "homeRecentlyUpdated": "Recently Updated",
+  "homeSourceCredential": "Credential",
+  "homeSourceDocument": "Document",
+  "homeSourceCollection": "Collection",
+  "searchTitle": "Search your vault",
+  "searchHint": "Search vault...",
+  "searchNoResults": "No results found",
+  "searchNoResultsSubtitle": "Try a different search term",
+  "searchFindAll": "Find credentials, documents, and collections",
+  "searchCredentials": "Credentials",
+  "searchDocuments": "Documents",
+  "searchCollections": "Collections",
+  "authEnterPin": "Enter your PIN",
+  "authEnterPinSubtitle": "Enter your 6-digit PIN to unlock",
+  "authIncorrectPin": "Incorrect PIN. Try again.",
+  "authCreatePin": "Create a PIN",
+  "authConfirmPin": "Confirm your PIN",
+  "authCreatePinSubtitle": "Choose a 6-digit PIN to secure your vault",
+  "authConfirmPinSubtitle": "Re-enter the same 6-digit PIN",
+  "authPinMismatch": "PINs didn't match. Try again.",
+  "authEnableBiometric": "Enable Biometric Unlock?",
+  "authBiometricSubtitle": "Use Face ID or fingerprint to unlock your vault quickly.",
+  "authBiometricEnable": "Enable",
+  "authBiometricSkip": "Skip",
+  "onboardingSkip": "Skip",
+  "onboardingNext": "Next",
+  "onboardingGetStarted": "Get Started",
+  "onboardingTitle1": "Your Secure Vault",
+  "onboardingSubtitle1": "Store credentials, documents, and collections in one encrypted place. Everything stays on your device.",
+  "onboardingTitle2": "Smart Documents",
+  "onboardingSubtitle2": "Scan and organize IDs, contracts, and records with automatic categorization and expiry tracking.",
+  "onboardingTitle3": "Powerful Collections",
+  "onboardingSubtitle3": "Plan trips, track projects, manage budgets — with checklists, timelines, expenses, and reminders.",
+  "onboardingTitle4": "Encrypted Backups",
+  "onboardingSubtitle4": "Back up to Dropbox or Google Drive with AES-256 encryption. Restore anytime, on any device.",
+  "editCollection": "Edit Collection",
+  "preparingExport": "Preparing export...",
+  "exportFailed": "Export failed",
+  "settingsLockTimeoutUpdated": "Lock timeout updated",
+  "settingsPinUpdatedSuccessfully": "PIN updated successfully",
+  "settingsIncorrectPin": "Incorrect PIN",
+  "settingsBiometricEnabled": "Biometric unlock enabled",
+  "settingsBiometricDisabled": "Biometric unlock disabled",
+  "scanTakePhoto": "Take photo",
+  "scanChooseFromLibrary": "Choose from library",
+  "scanRetake": "Retake",
+  "generatorUse": "Use",
+  "generatorNavVaults": "Vaults",
+  "generatorNavPasswords": "Passwords",
+  "generatorNavSecurity": "Security",
+  "generatorNavSettings": "Settings",
+  "generatorSideMyPasswords": "My Passwords",
+  "generatorSideGenerator": "Generator",
+  "generatorSideSecurityAudit": "Security Audit",
+  "generatorSideHistory": "History",
+  "generatorCopy": "Copy",
+  "generatorGenerating": "Generating...",
+  "generatorRegenerate": "Regenerate",
+  "generatorStrengthLabel": "PASSWORD STRENGTH",
+  "generatorSearchHint": "Search entries...",
+  "generatorRuleUppercaseLetters": "Uppercase Letters",
+  "generatorRuleLowercaseLetters": "Lowercase Letters",
+  "generatorRuleIncludeNumbers": "Include Numbers",
+  "generatorRuleIncludeSymbols": "Include Symbols",
+  "generatorMobileRuleUppercase": "Uppercase (A-Z)",
+  "generatorMobileRuleLowercase": "Lowercase (a-z)",
+  "generatorMobileRuleNumbers": "Numbers (0-9)",
+  "generatorMobileRuleSymbols": "Symbols (!@#$)",
+  "generatorMetricEntropy": "Entropy Score",
+  "generatorMetricEntropyDesc": "A measure of how unpredictable your password is.",
+  "generatorMetricCrackTime": "Crack Time",
+  "generatorMetricCrackTimeDesc": "Estimated brute-force crack time with modern hardware.",
+  "generatorMetricEasyToType": "Easy to Type",
+  "generatorMetricEasyToTypeDesc": "Balanced distribution for manual typing if needed.",
+  "collectionFieldTypeShortText": "Short Text",
+  "collectionFieldTypeNumber": "Number",
+  "collectionFieldTypeDate": "Date",
+  "collectionFieldTypePhone": "Phone",
+  "collectionEventTypeMilestone": "Milestone",
+  "collectionEventTypeDeadline": "Deadline",
+  "collectionEventTypeReminder": "Reminder",
+  "collectionDocCategoryIdentity": "Identity",
+  "collectionDocCategoryTravel": "Travel",
+  "collectionDocCategoryFinance": "Finance",
+  "collectionDocCategoryPropertyLease": "Property · Lease",
+  "collectionDocCategoryOther": "Other",
+  "collectionNoteCategoryPersonal": "Personal",
+  "collectionNoteCategoryWork": "Work",
+  "collectionExpenseCategoryTransport": "Transport",
+  "collectionExpenseCategoryFood": "Food",
+  "collectionExpenseCategoryShopping": "Shopping",
+  "collectionExpenseCategoryRent": "Rent",
+  "collectionExpenseCategoryOther": "Other",
+  "collectionFileTypeDocuments": "Documents",
+  "collectionFileTypeImages": "Images",
+  "collectionFileTypeAllFiles": "All Files",
+  "collectionEntryTapToEnterAmount": "Tap to enter amount",
+  "collectionEntryHintNoteTitle": "Note Title",
+  "collectionEntryHintReminderExample": "Renew passport",
+  "collectionEntryAddAnotherTask": "Add another task...",
+  "collectionEntryAddChecklistItem": "Add an item",
+  "collectionEntryChecklistReorder": "REORDER",
+  "collectionEntryChecklistItemsSummary": "ITEMS · {total} · {done} OF {total} DONE",
+  "@collectionEntryChecklistItemsSummary": {
+    "placeholders": {
+      "total": {
+        "type": "int"
+      },
+      "done": {
+        "type": "int"
+      }
+    }
+  },
+  "collectionEntryUnitFloor": "Unit / Floor",
+  "collectionEntryOptional": "Optional",
+  "collectionEntryWhatWasThisFor": "What was this for?",
+  "collectionTemplateTravelPlannerTitle": "Travel Planner",
+  "collectionTemplateTravelPlannerDesc": "Organize flights, hotels, and itineraries",
+  "collectionTemplateWeddingPlannerTitle": "Wedding Planner",
+  "collectionTemplateWeddingPlannerDesc": "Plan your perfect day with vendors, guests, and timelines",
+  "collectionTemplateBudgetPlannerTitle": "Budget Planner",
+  "collectionTemplateBudgetPlannerDesc": "Track income, expenses, and savings goals",
+  "collectionTemplateEventPlanningTitle": "Event Planning",
+  "collectionTemplateEventPlanningDesc": "Plan parties and gatherings with vendors and timelines",
+  "collectionTemplateProjectPlanningTitle": "Project Planning",
+  "collectionTemplateProjectPlanningDesc": "Roadmaps, tasks, and resource allocation",
+  "collectionTemplateFreelanceTrackerTitle": "Freelance Tracker",
+  "collectionTemplateFreelanceTrackerDesc": "Manage clients, invoices, and project deliverables",
+  "collectionTemplateHomeRenovationTitle": "Home Renovation",
+  "collectionTemplateHomeRenovationDesc": "Plan remodels with contractors, budgets, and timelines",
+  "collectionTemplateStudyPlannerTitle": "Study Planner",
+  "collectionTemplateStudyPlannerDesc": "Organize courses, exams, and study sessions",
+  "collectionTemplateFitnessTrackerTitle": "Fitness Tracker",
+  "collectionTemplateFitnessTrackerDesc": "Track workouts, nutrition, and fitness goals",
+  "collectionTemplateRecipeBookTitle": "Recipe Book",
+  "collectionTemplateRecipeBookDesc": "Save favorite recipes and grocery lists",
+  "collectionTemplateJobSearchTitle": "Job Search",
+  "collectionTemplateJobSearchDesc": "Track applications, interviews, and opportunities",
+  "collectionTemplatePropertyManagementTitle": "Property Management",
+  "collectionTemplatePropertyManagementDesc": "Track listings, maintenance, and tenants",
+  "collectionTemplateMovingChecklistTitle": "Moving Checklist",
+  "collectionTemplateMovingChecklistDesc": "Organize packing, utilities, and timelines",
+  "collectionTemplatePetCareTitle": "Pet Care",
+  "collectionTemplatePetCareDesc": "Manage vet visits, vaccinations, and health records",
+  "collectionTemplateVehicleMaintenanceTitle": "Vehicle Maintenance",
+  "collectionTemplateVehicleMaintenanceDesc": "Track service history, expenses, and schedules",
+  "collectionTemplateDiplomasCertificatesTitle": "Diplomas & Certificates",
+  "collectionTemplateDiplomasCertificatesDesc": "Organize degrees, transcripts, and professional certifications",
+  "collectionTemplateBankDocumentsTitle": "Bank Documents (RIB)",
+  "collectionTemplateBankDocumentsDesc": "Store RIB, IBAN, account details, and monthly statements",
+  "collectionTemplateHealthRecordsTitle": "Health Records",
+  "collectionTemplateHealthRecordsDesc": "Track vaccinations, allergies, doctor visits, and insurance",
+  "collectionTemplateTaxDocumentsTitle": "Tax Documents",
+  "collectionTemplateTaxDocumentsDesc": "Organize tax returns, receipts, deductions, and filing deadlines",
+  "collectionTemplateTagPopular": "Popular",
+  "collectionTemplateTagNew": "New",
+  "collectionTemplatePreview": "Preview",
+  "collectionTemplateBlocksCount": "{count} blocks",
+  "@collectionTemplateBlocksCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "workCompanyEditTitle": "Edit Company",
+  "workCompanyAddTitle": "Add New Company",
+  "workCompanyFieldRole": "Role",
+  "workCompanyFieldEntryDate": "Entry Date",
+  "workCompanyFieldEndDate": "End Date (Optional)",
+  "workCompanyFieldContact": "Primary Contact",
+  "workCompanyHintContact": "Email or phone number",
+  "workCompanyHintLocation": "City, Country",
+  "workCompanyStatusOngoing": "Ongoing",
+  "workCompanyStatusFixed": "Fixed",
+  "workCompanyPreviewMap": "PREVIEW MAP",
+  "workCompanyAutoDetectLogo": "Auto-detect logo",
+  "workCompanyUploadManually": "Or upload manually (PNG, JPG up to 5MB)",
+  "commonTakePhoto": "Take photo",
+  "commonChooseFromGallery": "Choose from gallery",
+  "commonBrowseFiles": "Browse files",
+  "credentialDeleteAction": "Delete Credential",
+  "credentialDeleteFailed": "Failed to delete credential",
+  "reminderActionRenewal": "Renewal Needed",
+  "reminderActionRequired": "Action Required",
+  "reminderActionUpload": "Upload Now",
+  "reminderActionViewDetails": "View Details",
+  "backupNotConnected": "Not connected",
+  "backupUploadGoogleDrive": "Upload All to Google Drive",
+  "backupUploadDropbox": "Upload All to Dropbox",
+  "backupConnecting": "Connecting...",
+  "backupAuthorize": "Authorize",
+  "settingsHintPinDigits": "6-digit PIN",
+  "settingsVerify": "Verify",
+  "settingsWipeEverything": "Wipe Everything",
+  "settingsExportFailedWithError": "Export failed: {error}",
+  "@settingsExportFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "idCardRescan": "Rescan",
+  "settingsThemeTitle": "Theme",
+  "settingsThemeSubtitle": "System, Light, or Dark",
+  "settingsAutoLockTitle": "Auto-Lock Timeout",
+  "settingsAutoLockSubtitle": "Lock vault after inactivity",
+  "settingsChangePinTitle": "Change PIN",
+  "settingsChangePinSubtitle": "Update your 6-digit vault PIN",
+  "settingsBiometricTitle": "Biometric Unlock",
+  "settingsBiometricSubtitle": "Toggle Face ID / fingerprint",
+  "settingsWipeVaultTitle": "Wipe Vault",
+  "settingsWipeVaultSubtitle": "Permanently delete all data",
+  "settingsWipeDialogTitle": "Wipe All Data?",
+  "settingsWipeDialogContent": "This will permanently delete ALL vault data including credentials, documents, collections, backups, and your PIN. This action cannot be undone.",
+  "settingsLockImmediately": "Immediately",
+  "settingsLockNever": "Never",
+  "settingsThemeSystem": "System",
+  "settingsThemeLight": "Light",
+  "settingsThemeDark": "Dark",
+  "settingsBiometricEnabledLabel": "Enabled",
+  "settingsBiometricEnabledSubtitle": "Unlock with biometrics + PIN fallback",
+  "settingsBiometricDisabledSubtitle": "Always require your 6-digit PIN",
+  "travelUnableLoadEvent": "Unable to load timeline event",
+  "scanPassportTitle": "Scan Passport",
+  "travelHintEventTitle": "e.g. Flight to Paris",
+  "travelHintSearchLocation": "Search location",
+  "travelFieldDeparture": "Departure",
+  "travelFieldArrival": "Arrival",
+  "travelFieldAirlineProvider": "Airline / Provider",
+  "travelFieldFlightNo": "Flight No.",
+  "travelFieldSeat": "Seat",
+  "travelFieldTerminal": "Terminal",
+  "travelFieldGate": "Gate",
+  "travelHintBookingRef": "e.g. AF12345",
+  "travelHintHotelName": "Grand Hyatt Tokyo",
+  "travelFieldReservationNo": "Reservation No.",
+  "travelFieldBookingPlatform": "Booking Platform",
+  "travelFieldRoomType": "Room Type",
+  "travelFieldGuests": "Guests",
+  "travelFieldTotalPrice": "Total Price",
+  "travelFieldCuisineType": "Cuisine type",
+  "travelFieldEstimatedCost": "Estimated Cost",
+  "travelFieldActivityType": "Activity Type",
+  "travelFieldOrganizer": "Organizer",
+  "travelFieldParticipants": "Participants",
+  "travelFieldTicketPrice": "Ticket Price",
+  "travelFieldBookingReference": "Booking Reference",
+  "travelFieldReservationType": "Reservation Type",
+  "travelFieldProvider": "Provider",
+  "travelFieldPickupLocation": "Pickup Location",
+  "travelFieldReservationNumber": "Reservation Number",
+  "travelFieldVehicleDetails": "Vehicle / Item Details",
+  "travelFieldPriceDeposit": "Price / Deposit",
+  "travelHintNotes": "Add confirmation codes, meeting points or details...",
+  "travelHintExpenseTitle": "e.g. Dinner in Tokyo",
+  "travelHintAdditionalDetails": "Add additional details here...",
+  "travelFieldSelectType": "Select type",
+  "travelHintDocTitle": "e.g. Boarding pass NH212",
+  "commonOptional": "Optional",
+  "travelHintBookingNotes": "Add additional notes or booking details",
+  "propertyTypeApartment": "Apartment",
+  "propertyTypeSingleFamily": "Single Family House",
+  "propertyTypeCondo": "Condo",
+  "propertyTypeTownhouse": "Townhouse",
+  "propertyTypeMultiFamily": "Multi-Family",
+  "propertyTypePenthouse": "Penthouse",
+  "propertyTypeVacationHome": "Vacation Home",
+  "propertyTypeLand": "Land",
+  "propertyTypeCommercial": "Commercial",
+  "settingsImportVaultTitle": "Import Vault Data",
+  "settingsImportVaultSubtitle": "Restore from a .zip export file",
+  "settingsImportPasswordsTitle": "Import Passwords",
+  "settingsImportPasswordsSubtitle": "From Chrome, Safari, 1Password, Bitwarden or LastPass",
+  "macMenuFile": "File",
+  "macMenuEdit": "Edit",
+  "macMenuView": "View",
+  "macMenuVault": "Vault",
+  "macMenuNewCredential": "New Credential",
+  "macMenuNewCollection": "New Collection",
+  "macMenuImportVault": "Import Vault...",
+  "macMenuExportVault": "Export Vault...",
+  "macMenuCloseWindow": "Close Window",
+  "macMenuCopy": "Copy",
+  "macMenuPaste": "Paste",
+  "macMenuSelectAll": "Select All",
+  "macMenuFind": "Find...",
+  "macMenuToggleSidebar": "Toggle Sidebar",
+  "macMenuLockVault": "Lock Vault",
+  "macMenuSearchVault": "Search Vault",
+  "macMenuSettings": "Settings...",
+  "dropboxSessionExpiredTitle": "Dropbox session expired",
+  "dropboxSessionExpiredMessage": "Your Dropbox connection has expired. Please reconnect to continue syncing your backups.",
+  "settingsImportPassphraseTitle": "Enter Export Passphrase",
+  "settingsImportPassphraseHint": "Passphrase used during export",
+  "settingsImportSuccess": "Vault data imported successfully",
+  "settingsImportFailed": "Failed to import vault data",
+  "settingsImportInvalidFile": "Invalid or corrupted file",
+  "settingsImportAction": "Import",
+  "lockScreenTooManyAttempts": "Too many failed attempts",
+  "lockScreenTryAgainIn": "Try again in {time}",
+  "@lockScreenTryAgainIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "lockScreenAttemptsRemaining": "{count} attempts remaining before lockout",
+  "@lockScreenAttemptsRemaining": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "scanIdentityVerification": "Identity Verification",
+  "scanAdjustDocument": "Adjust Document",
+  "addDocumentTitle": "Add New Document",
+  "addDocumentPassportSubtitle": "Passports and travel IDs",
+  "addDocumentIdCardSubtitle": "National ID and identity cards",
+  "addDocumentDriversLicenseSubtitle": "Driver's licenses",
+  "addDocumentOtherSubtitle": "Any other document type",
+  "addDocumentSelectType": "SELECT DOCUMENT TYPE",
+  "addDocumentInfoHint": "Choose a document type to continue to manual entry and smart scan autofill.",
+  "addDocumentSecurityFooter": "Your documents are encrypted and secure",
+  "idCardFrontSide": "Front Side",
+  "idCardBackSide": "Back Side",
+  "credentialEmptyTitle": "Secure your accounts",
+  "credentialEmptySubtitle": "Store your passwords and credentials safely, encrypted and offline on your device.",
+  "credentialEmptyAction": "Add Credential",
+  "settingsRevealAuthTitle": "Password Reveal Protection",
+  "settingsRevealAuthSubtitle": "Require PIN or biometrics to see passwords",
+  "settingsRevealAuthEnabled": "Password reveal protection enabled",
+  "settingsRevealAuthEnabledDetail": "PIN or biometrics required before revealing any password",
+  "settingsRevealAuthDisabled": "Password reveal protection disabled",
+  "settingsRevealAuthDisabledDetail": "Passwords can be revealed freely without additional authentication",
+  "revealAuthPinTitle": "Enter PIN to reveal",
+  "revealAuthPinHint": "6-digit PIN",
+  "revealAuthFailed": "Authentication failed",
+  "secureNotesTitle": "Secure Notes",
+  "secureNotesSubtitle": "Encrypted personal notes",
+  "secureNotesEmpty": "No notes yet",
+  "secureNotesAdd": "New Note",
+  "noteEditorTitle": "Edit Note",
+  "noteEditorTitleHint": "Note title",
+  "noteEditorContentHint": "Write your note...",
+  "noteCategoryPersonal": "Personal",
+  "noteCategoryFinancial": "Financial",
+  "noteCategoryLegal": "Legal",
+  "noteCategoryMedical": "Medical",
+  "noteDeleted": "Note deleted",
+  "noteSaved": "Note saved",
+  "expiryNotification90Days": "Your {title} expires in 3 months",
+  "@expiryNotification90Days": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "expiryNotification30Days": "Your {title} expires in 30 days",
+  "@expiryNotification30Days": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "expiryNotification7Days": "Your {title} expires next week",
+  "@expiryNotification7Days": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "expiryNotificationExpired": "Your {title} has expired",
+  "@expiryNotificationExpired": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "collectionPinLockTitle": "Enter Collection PIN",
+  "collectionPinSetTitle": "Set Collection PIN",
+  "collectionPinHint": "4-digit PIN",
+  "collectionPinIncorrect": "Incorrect PIN",
+  "collectionPinEnabled": "Collection locked",
+  "collectionPinDisabled": "Collection unlocked",
+  "breachWarningBadge": "Breached",
+  "breachWarningDetail": "{count} times in known breaches",
+  "@breachWarningDetail": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "credentialFavoriteAdded": "Added to favorites",
+  "credentialFavoriteRemoved": "Removed from favorites",
+  "backupPreviewDate": "Date",
+  "backupPreviewType": "Type",
+  "backupPreviewEntities": "Entities",
+  "backupPreviewFiles": "Files",
+  "backupPreviewSize": "Size",
+  "backupPreviewDevice": "Device",
+  "backupPreviewEncryption": "Encryption",
+  "backupPreviewEncryptionNone": "None",
+  "backupRestoring": "Restoring...",
+  "backupRestoringMessage": "Please wait while your vault is being restored.",
+  "backupRestoreComplete": "Restore Complete",
+  "backupRestoreCompleteMessage": "Your vault has been successfully restored from the backup.",
+  "backupDeleteConfirmation": "Are you sure you want to delete the backup from {date}? This action cannot be undone.",
+  "@backupDeleteConfirmation": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "backupRememberPassphrase": "Remember passphrase on this device",
+  "backupCloudProviderLabel": "CLOUD PROVIDER",
+  "backupUploading": "Uploading...",
+  "backupUploadToICloud": "Upload to iCloud",
+  "backupAppleIdAutomatic": "Uses your Apple ID automatically",
+  "backupGoogleAuthOpened": "A browser window opened for Google authorization.",
+  "backupGoogleAuthApprove": "Approve access. After redirect, copy the \"code\" value from the browser URL bar and paste it below.",
+  "backupICloudComingSoon": "iCloud native integration coming soon. Use Dropbox for now.",
+  "backupInterruptedRestoreDetected": "Interrupted Restore Detected",
+  "backupFrequencyError": "Failed to update backup frequency.",
+  "backupDisconnectError": "Failed to disconnect. Please try again.",
+  "searchPartialError": "Some results may be missing due to an error.",
+  "documentShowAll": "Show all",
+  "backupErrorLoad": "Unable to load backups.",
+  "backupErrorRollback": "Rollback cleanup failed. Please try again.",
+  "backupErrorCreate": "Backup failed. Please try again.",
+  "backupErrorRestore": "Restore failed. Please check your passphrase.",
+  "backupErrorDelete": "Unable to delete backup.",
+  "backupErrorConnectDropbox": "Connect Dropbox in Sync settings first.",
+  "backupErrorUpload": "Upload failed. Please try again.",
+  "backupErrorDropboxNotConnected": "Dropbox not connected.",
+  "backupErrorCloudRestore": "Cloud restore failed. Please try again.",
+  "backupSuccessUpload": "Uploaded to Dropbox successfully.",
+  "backupSuccessCloudRestore": "Restored from cloud backup successfully.",
+  "backupGoogleDriveLabel": "Google Drive",
+  "syncErrorLoad": "Unable to load sync settings.",
+  "syncErrorSave": "Unable to save settings.",
+  "syncErrorRun": "Unable to run sync.",
+  "generatorErrorGenerate": "Unable to generate password.",
+  "profileErrorLoad": "Unable to load profile right now.",
+  "profileErrorShareOptions": "Unable to load sharing options right now.",
+  "profileErrorVCard": "Unable to generate vCard right now.",
+  "documentsErrorLoad": "Unable to load documents.",
+  "documentsErrorCompany": "Unable to load company details.",
+  "documentsErrorWorkVaults": "Unable to load work vaults.",
+  "documentsErrorSecureIds": "Unable to load secure IDs.",
+  "documentTimelineTitle": "Document Timeline",
+  "documentTimelineEmpty": "No documents with expiry dates yet.",
+  "documentTimelineErrorLoad": "Unable to load expiring documents.",
+  "documentTimelineNoMatches": "No documents match the selected filter.",
+  "documentTimelineExpired": "Expired",
+  "documentTimelineSoon": "Expiring Soon",
+  "documentTimelineSafe": "Valid",
+  "documentTimelineFilterAll": "All",
+  "documentTimelineFilterExpired": "Expired",
+  "documentTimelineFilterCritical": "<30d",
+  "documentTimelineFilterWarning": "<90d",
+  "documentTimelineFilterSafe": "Safe",
+  "documentTimelineDaysRemaining": "{days} days remaining",
+  "@documentTimelineDaysRemaining": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "documentTimelineExpiredDaysAgo": "Expired {days} days ago",
+  "@documentTimelineExpiredDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "documentTimelineExpiresToday": "Expires today",
+  "collectionsErrorLoad": "Unable to load collections right now.",
+  "collectionsErrorCreate": "Unable to create collection.",
+  "collectionsErrorDelete": "Unable to delete collection.",
+  "collectionsErrorDetail": "Unable to load this collection.",
+  "credentialsErrorLoad": "Unable to load credentials.",
+  "credentialsErrorDetail": "Unable to load credential details.",
+  "shareTitle": "Secure Share",
+  "sharePassphraseHint": "Passphrase",
+  "shareTtlLabel": "Link expires in:",
+  "shareTtl1Hour": "1 Hour",
+  "shareTtl1Day": "1 Day",
+  "shareTtl7Days": "7 Days",
+  "shareTtlOneTime": "One-time View",
+  "shareGenerateLink": "Generate Link",
+  "shareCopyLink": "Link copied to clipboard!",
+  "shareLinkCopied": "Share link copied!",
+  "sharePassphraseReminder": "Important: Share the passphrase separately via a secure channel",
+  "importTitle": "Import Credentials",
+  "importSelectSource": "Select Import Source",
+  "importSelectFile": "Select File",
+  "importPreview": "Review Credentials",
+  "importComplete": "Import Complete",
+  "importFound": "Found {count} credentials",
+  "@importFound": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "importDuplicates": "{count} duplicates detected",
+  "@importDuplicates": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "importSelectAll": "Select All",
+  "importDeselectDuplicates": "Deselect Duplicates",
+  "importImportSelected": "Import Selected",
+  "importSuccess": "Import Successful",
+  "importCompleted": "Imported {imported} credentials, skipped {skipped} duplicates",
+  "@importCompleted": {
+    "placeholders": {
+      "imported": {
+        "type": "int"
+      },
+      "skipped": {
+        "type": "int"
+      }
+    }
+  },
+  "importErrors": "{count} errors occurred",
+  "@importErrors": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "importInstructions1Password": "Export your 1Password vault as CSV. Go to File > Export and choose CSV format.",
+  "importInstructionsBitwarden": "Export from Bitwarden as JSON. Go to Settings > Export Vault and choose JSON format.",
+  "importInstructionsChrome": "Export from Chrome Password Manager. Go to Settings > Passwords and export your data as CSV.",
+  "importInstructionsSafari": "Export from Safari. Go to File > Export Passwords and select the credentials to export.",
+  "importInstructionsLastPass": "Export from LastPass as CSV. Go to Vault > More Options > Export and choose CSV format.",
+  "vaultHealthPageTitle": "Vault Health",
+  "vaultHealthOut": "out of 100",
+  "vaultHealthLastChecked": "Checked {time}",
+  "@vaultHealthLastChecked": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "vaultHealthGradeExcellent": "Excellent",
+  "vaultHealthGradeGood": "Good",
+  "vaultHealthGradeFair": "Fair",
+  "vaultHealthGradePoor": "Poor",
+  "vaultHealthSummaryTitle": "Summary",
+  "vaultHealthWeakCount": "Weak Passwords",
+  "vaultHealthReusedCount": "Reused Passwords",
+  "vaultHealthBreachedCount": "Breached",
+  "vaultHealthExpiringCount": "Expiring Soon",
+  "vaultHealthIssuesTitle": "{count} Issues Found",
+  "@vaultHealthIssuesTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "vaultHealthNoIssues": "No Issues Found",
+  "vaultHealthAllGood": "Your vault is in great shape!",
+  "vaultHealthCritical": "Critical",
+  "vaultHealthHigh": "High",
+  "vaultHealthMedium": "Medium",
+  "vaultHealthLow": "Low",
+
+  "navBundles": "Bundles",
+  "bundlesTitle": "Bundles",
+  "bundlesEmptyTitle": "No bundles yet",
+  "bundlesEmptySubtitle": "Create a bundle to group files and credentials for an application, a trip, or any other purpose.",
+  "bundlesErrorLoad": "Unable to load bundles.",
+  "bundleCreateAction": "New bundle",
+  "bundleCreateTitle": "Create bundle",
+  "bundleCreateError": "Couldn't create the bundle. Please try again.",
+  "bundleFieldTitle": "Title",
+  "bundleFieldTitleHint": "e.g. France Visa Application",
+  "bundleFieldTitleRequired": "Title is required",
+  "bundleFieldPurpose": "Purpose (optional)",
+  "bundleFieldPurposeHint": "e.g. Schengen visa — Feb 2026",
+  "bundleFieldDescription": "Description (optional)",
+  "bundleFieldDescriptionHint": "What is this bundle for?",
+  "bundleStatusDraft": "Draft",
+  "bundleStatusReady": "Ready",
+  "bundleStatusExported": "Exported",
+  "bundleStatusArchived": "Archived",
+  "bundleItemCount": "{count,plural, =0{no items} =1{1 item} other{{count} items}}",
+  "bundleUpdatedAt": "updated {date}",
+  "bundleLastExportedAt": "exported {date}",
+  "bundleDeleteTitle": "Delete bundle?",
+  "bundleDeleteMessage": "\"{title}\" will be permanently deleted.",
+  "bundleDeleteConfirm": "Delete",
+  "bundleDetailLoadingTitle": "Bundle",
+  "bundleDetailErrorLoad": "Unable to load this bundle.",
+  "bundleDetailMenuTooltip": "More",
+  "bundleActionExport": "Export / share",
+  "bundleTemplateSelectedBadge": "Selected",
+  "bundleTemplateSectionTitle": "Start with a template",
+  "bundleTemplateSectionSubtitle": "Templates prefill the bundle and track required items so you can see what is missing.",
+  "bundleTemplateBlankTitle": "Blank bundle",
+  "bundleTemplateBlankSubtitle": "Start empty and add items manually.",
+  "bundleTemplatePrefillHint": "Selecting a template prefills the bundle fields and checks your vault for matching items.",
+  "bundleTemplateFranceVisaTitle": "France Visa",
+  "bundleTemplateFranceVisaSummary": "Identity, travel, accommodation, employment, insurance, and financial records.",
+  "bundleTemplateApartmentRentalTitle": "Apartment Rental",
+  "bundleTemplateApartmentRentalSummary": "Identity, income proof, employment, tax, and rent records.",
+  "bundleTemplateJobOnboardingTitle": "New Job Onboarding",
+  "bundleTemplateJobOnboardingSummary": "Contract, identity, bank info, and qualification records.",
+  "bundleTemplateTravelClaimTitle": "Travel Claim",
+  "bundleTemplateTravelClaimSummary": "Bookings, receipts, invoices, and claim support documents.",
+  "bundleTemplateChecklistTitle": "Template checklist",
+  "bundleTemplateChecklistSubtitle": "{completed} of {total} required items ready",
+  "@bundleTemplateChecklistSubtitle": {
+    "placeholders": {
+      "completed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "bundleTemplateAddMissingAction": "Add missing",
+  "bundleTemplateReadyTitle": "Ready to export",
+  "bundleTemplateMissingTitle": "Missing required items",
+  "bundleTemplateReadySubtitle": "All required items are attached.",
+  "bundleTemplateMissingCount": "{count,plural, =1{1 required item is missing} other{{count} required items are missing}}",
+  "@bundleTemplateMissingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "bundleTemplateRequiredLabel": "Required",
+  "bundleTemplateCompletedLabel": "Completed",
+  "bundleTemplateOptionalLabel": "Optional",
+  "bundleTemplateMatchedCount": "{matched} of {minimum}",
+  "@bundleTemplateMatchedCount": {
+    "placeholders": {
+      "matched": {
+        "type": "int"
+      },
+      "minimum": {
+        "type": "int"
+      }
+    }
+  },
+  "bundleActionArchive": "Archive",
+  "bundleActionUnarchive": "Unarchive",
+  "bundleActionDelete": "Delete bundle",
+  "bundleSectionItems": "Items",
+  "bundleSectionHistory": "History",
+  "bundleEmptyItems": "No items yet. Tap \"Add items\" to pick from your vault.",
+  "bundleAddItems": "Add items",
+  "bundleHistoryEmpty": "No activity yet.",
+  "bundleEventCreated": "Bundle created",
+  "bundleEventRenamed": "Renamed",
+  "bundleEventPurposeUpdated": "Purpose updated",
+  "bundleEventDescriptionUpdated": "Description updated",
+  "bundleEventItemAdded": "Item added",
+  "bundleEventItemRemoved": "Item removed",
+  "bundleEventItemReordered": "Items reordered",
+  "bundleEventStatusChanged": "Status changed",
+  "bundleEventExported": "Exported",
+  "bundleEventArchived": "Archived",
+  "bundleEventRestored": "Restored",
+  "bundleAddToTitle": "Add to bundle",
+  "bundleAddToSubtitle": "{count,plural, =1{Pick a bundle for 1 item} other{Pick a bundle for {count} items}}",
+  "bundleAddToNew": "New",
+  "bundleAddToEmpty": "You have no bundles yet. Tap \"New\" to create one.",
+  "bundleAddToSnackbar": "{count,plural, =1{1 item added to bundle.} other{{count} items added to bundle.}}",
+  "bundleExportTitle": "Export bundle",
+  "bundleExportSectionWhat": "Bundle",
+  "bundleExportSectionOptions": "Options",
+  "bundleExportEncryptTitle": "Encrypt archive",
+  "bundleExportEncryptSubtitle": "Protect the ZIP with a password (AES-256).",
+  "bundleExportPassphraseLabel": "Passphrase",
+  "bundleExportPassphraseHint": "Share this separately with the recipient",
+  "bundleExportPassphraseRequired": "Please enter a passphrase.",
+  "bundleExportRunAction": "Build archive",
+  "bundleExportError": "Export failed. Please try again.",
+  "bundleExportSuccess": "Archive ready",
+  "bundleExportShare": "Share archive",
+  "bundleSearchPickBanner": "Picking items for \"{title}\"",
+  "bundleSearchPickBannerGeneric": "Tap items to add to a bundle",
+  "bundleSearchSelectedCount": "{count,plural, =1{1 selected} other{{count} selected}}",
+  "bundleSearchClearSelection": "Clear",
+  "bundleSearchAddSelected": "Add selected",
+  "bundleSearchAddToBundle": "Add to bundle",
+
+  "bundleTimeJustNow": "just now",
+  "bundleTimeMinutesAgo": "{count,plural, =1{1 min ago} other{{count} min ago}}",
+  "bundleTimeHoursAgo": "{count,plural, =1{1 h ago} other{{count} h ago}}",
+  "bundleTimeYesterday": "yesterday",
+  "bundleTimeDaysAgo": "{count,plural, =1{1 day ago} other{{count} days ago}}",
+  "bundlePreviewUnavailable": "Preview is not yet available for this item type.",
+
+  "navTasks": "Tasks",
+  "tasksTitle": "Tasks",
+  "tasksEmptyTitle": "No task lists yet",
+  "tasksEmptySubtitle": "Create a list to track things you need to do — errands, a project, a trip checklist.",
+  "tasksErrorLoad": "Unable to load task lists.",
+  "tasksListCreateAction": "New list",
+  "tasksListCreateTitle": "Create task list",
+  "tasksListCreateError": "Couldn't create the list. Please try again.",
+  "tasksListFieldTitle": "Title",
+  "tasksListFieldTitleHint": "e.g. Visa application prep",
+  "tasksListFieldTitleRequired": "Title is required",
+  "tasksListFieldDescription": "Description (optional)",
+  "tasksListFieldDescriptionHint": "What is this list for?",
+  "tasksListPickIcon": "Icon",
+  "tasksListPickColor": "Colour",
+  "tasksListLoadingTitle": "Tasks",
+  "tasksListErrorLoad": "Unable to load this list.",
+  "tasksHideArchived": "Hide archived",
+  "tasksShowArchived": "Show archived",
+  "tasksHideDone": "Hide completed",
+  "tasksShowDone": "Show completed",
+  "tasksOverdueBadge": "{count,plural, =1{1 overdue} other{{count} overdue}}",
+  "tasksOpenCount": "{count,plural, =0{no open} =1{1 open} other{{count} open}}",
+  "tasksDoneCount": "{count,plural, =0{0 done} =1{1 done} other{{count} done}}",
+  "tasksActionArchive": "Archive",
+  "tasksActionUnarchive": "Unarchive",
+  "tasksActionDelete": "Delete",
+  "tasksActionPin": "Pin to top",
+  "tasksActionUnpin": "Unpin",
+  "tasksDeleteListTitle": "Delete list?",
+  "tasksDeleteListMessage": "\"{title}\" and all its tasks will be permanently deleted.",
+  "tasksDeleteListConfirm": "Delete",
+  "taskCreateAction": "Add task",
+  "taskCreateTitle": "New task",
+  "taskEditTitle": "Edit task",
+  "taskFieldTitle": "Task",
+  "taskFieldTitleHint": "What needs to be done?",
+  "taskFieldNotes": "Notes",
+  "taskFieldNotesHint": "Details, sub-steps, context…",
+  "taskFieldPriority": "Priority",
+  "taskFieldDue": "Due date",
+  "taskFieldDueNone": "No due date",
+  "taskFieldDueClear": "Clear due date",
+  "taskFieldPin": "Pin this task",
+  "taskFieldPinHint": "Pinned tasks stay at the top of the list.",
+  "taskFieldLink": "Linked vault item (optional)",
+  "taskFieldLinkNone": "Tap to pick a document, credential or bundle",
+  "taskFieldLinkClear": "Remove link",
+  "taskPriorityLow": "Low",
+  "taskPriorityMedium": "Medium",
+  "taskPriorityHigh": "High",
+  "taskDueToday": "Due today",
+  "taskDueTomorrow": "Due tomorrow",
+  "taskDueInDays": "{count,plural, =1{Due in 1 day} other{Due in {count} days}}",
+  "taskDueOverdueBy": "{count,plural, =1{Overdue by 1 day} other{Overdue by {count} days}}",
+  "tasksSectionPinned": "Pinned",
+  "tasksSectionOverdue": "Overdue",
+  "tasksSectionToday": "Today",
+  "tasksSectionUpcoming": "Upcoming",
+  "tasksSectionNoDate": "No due date",
+  "tasksSectionDone": "Completed",
+  "tasksStatOpen": "Open",
+  "tasksStatDone": "Done",
+  "tasksStatOverdue": "Overdue",
+  "tasksDetailEmpty": "No tasks yet. Tap \"Add task\" to create the first one.",
+  "tasksEnterReorder": "Reorder",
+  "tasksExitReorder": "Done reordering"
+}
